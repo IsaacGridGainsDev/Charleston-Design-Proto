@@ -1,0 +1,54 @@
+.page-makers { font-family: 'Gabarito', var(--font-body); }
+
+    .makers-hero {
+      position: relative; isolation: isolate; min-height: 600px;
+      display: flex; flex-direction: column; gap: 24px; align-items: center; justify-content: center;
+      padding: 120px; color: #fff; overflow: hidden; text-align: center;
+    }
+    .makers-hero img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.65); }
+    .makers-hero h1 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(56px, 6.6vw, 96px); }
+    .makers-hero p { color: var(--tan); font-size: 20px; max-width: 600px; }
+
+    .why-matters { padding: 80px; display: flex; flex-direction: column; gap: 40px; }
+    .why-matters__row { display: flex; gap: 32px; }
+    .why-matters__col { flex: 1; display: flex; flex-direction: column; gap: 12px; }
+    .why-matters__col h3 { font-family: var(--font-serif); font-weight: 400; font-size: 24px; }
+    .why-matters__col p { color: var(--gray); }
+
+    .charles { padding: 0 80px 120px; display: flex; gap: 32px; align-items: flex-start; }
+    .charles img { width: 480px; height: 480px; object-fit: cover; flex-shrink: 0; }
+    .charles__details { flex: 1; display: flex; flex-direction: column; gap: 16px; }
+    .charles__name { font-family: var(--font-serif); font-size: 32px; }
+    .charles__role { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--rust); }
+    .charles__bio { color: var(--gray); }
+
+    .signature { padding: 0 80px 120px; display: flex; flex-direction: column; gap: 32px; }
+    .signature__title { font-family: var(--font-serif); font-weight: 200; font-size: clamp(32px, 3.3vw, 48px); }
+    .signature__row { display: flex; gap: 32px; }
+    .signature-card {
+      flex: 1; background: #fff; border: 1px solid var(--tan);
+      padding: 32px; display: flex; flex-direction: column; gap: 16px;
+    }
+    .signature-card .k { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--gray); }
+    .signature-card p { font-size: 18px; }
+
+    .values-ticker {
+      border-top: 1px solid var(--tan); border-bottom: 1px solid var(--tan);
+      padding: 64px 0; overflow: hidden; white-space: nowrap;
+    }
+    .values-ticker__track { display: inline-flex; gap: 40px; align-items: center; animation: ticker 40s linear infinite; }
+    .values-ticker__item {
+      font-family: var(--font-serif); font-weight: 200; font-size: clamp(24px, 2.8vw, 40px);
+      text-transform: uppercase; display: inline-flex; gap: 40px; align-items: center;
+    }
+    .values-ticker__item::after { content: ""; width: 100px; height: 1px; background: var(--rust); }
+    @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+    @media (prefers-reduced-motion: reduce) { .values-ticker__track { animation: none; } }
+
+    @media (max-width: 1024px) {
+      .why-matters { padding: 48px 40px; }
+      .why-matters__row, .signature__row { flex-direction: column; }
+      .charles { flex-direction: column; padding: 0 40px 64px; }
+      .charles img { width: 100%; height: 380px; }
+      .signature { padding: 0 40px 64px; }
+    }

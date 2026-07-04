@@ -1,0 +1,65 @@
+.page-shop { font-family: 'Gabarito', var(--font-body); }
+
+    .shop-hero { padding: 120px 80px; display: flex; flex-direction: column; gap: 24px; }
+    .shop-hero h1 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(48px, 5.5vw, 80px); }
+    .shop-hero p { font-size: 24px; color: var(--gray); max-width: 600px; }
+
+    .trust-strip {
+      display: flex; gap: 24px; flex-wrap: wrap;
+      padding: 0 80px 32px; border-bottom: 1px solid var(--tan);
+    }
+    .trust-item {
+      display: flex; gap: 10px; align-items: center;
+      font-family: var(--font-mono); font-size: 12px; text-transform: uppercase;
+    }
+    .trust-item svg { width: 16px; height: 16px; color: var(--rust); flex-shrink: 0; }
+
+    .cat-tabs { display: flex; gap: 40px; padding: 32px 80px 48px; border-bottom: 1px solid var(--tan); flex-wrap: wrap; }
+    .cat-tab { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; padding-bottom: 8px; }
+    .cat-tab.is-active { color: var(--rust); border-bottom: 2px solid var(--rust); }
+
+    .product-grid { padding: 80px; display: flex; flex-direction: column; gap: 80px; }
+    .product-row { display: flex; gap: 32px; }
+    .room-card { flex: 1; display: flex; flex-direction: column; gap: 16px; text-align: left; }
+    .room-card__img-wrap { position: relative; height: 480px; border-radius: 12px; overflow: hidden; }
+    .room-card__img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .room-card:hover .room-card__img-wrap img { transform: scale(1.04); }
+    .room-card__label {
+      position: absolute; left: 16px; bottom: 16px;
+      background: rgba(243, 239, 231, 0.8); border: 1px solid var(--tan); border-radius: 6px;
+      padding: 8px 12px; font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+    }
+    .room-card__name { font-family: var(--font-serif); font-style: italic; font-size: 28px; }
+    .room-card__desc { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: var(--gray); }
+    .room-card__price { font-size: 18px; }
+
+    .complete-look { padding: 80px; display: flex; flex-direction: column; gap: 48px; }
+    .complete-look__header { display: flex; flex-direction: column; gap: 12px; }
+    .complete-look__header .kicker { font-family: var(--font-mono); font-size: 14px; text-transform: uppercase; color: var(--rust); }
+    .complete-look__header h2 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(32px, 3.3vw, 48px); }
+    .complete-look__stage { position: relative; height: 720px; border-radius: 12px; overflow: hidden; }
+    .complete-look__stage > img { width: 100%; height: 100%; object-fit: cover; }
+    .callout { position: absolute; display: flex; flex-direction: column; gap: 8px; align-items: center; color: var(--cream); }
+    .callout__ring {
+      width: 56px; height: 56px; border: 2px solid var(--cream); border-radius: 28px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .callout__ring::after { content: ""; width: 20px; height: 20px; border: 1.5px solid var(--cream); border-radius: 50%; }
+    .callout span { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; }
+    .bundle-row { display: flex; gap: 32px; }
+    .bundle-card {
+      flex: 1; border: 1px solid var(--tan); border-radius: 12px; padding: 24px;
+      display: flex; flex-direction: column; gap: 12px; align-items: flex-start; text-align: left;
+      transition: border-color 0.25s ease, transform 0.25s ease;
+    }
+    .bundle-card:hover { border-color: var(--rust); transform: translateY(-3px); }
+    .bundle-card__kicker { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--gray); }
+    .bundle-card__name { font-family: var(--font-serif); font-style: italic; font-size: 28px; }
+    .bundle-card__save { color: var(--gray); }
+    .bundle-card__price { font-size: 18px; }
+
+    @media (max-width: 1024px) {
+      .shop-hero, .trust-strip, .cat-tabs, .product-grid, .complete-look { padding-left: 40px; padding-right: 40px; }
+      .product-row, .bundle-row { flex-direction: column; }
+      .complete-look__stage { height: 480px; }
+    }

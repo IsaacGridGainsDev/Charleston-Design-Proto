@@ -1,0 +1,45 @@
+.page-brief { font-family: 'Gabarito', var(--font-body); }
+
+    .brief-hero {
+      position: relative; isolation: isolate; min-height: 600px;
+      display: flex; align-items: center; justify-content: center; padding: 80px;
+      color: #fff; overflow: hidden;
+    }
+    .brief-hero img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.75); }
+    .brief-hero h1 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(44px, 5.5vw, 80px); text-align: center; }
+
+    .outcomes { padding: 80px; display: flex; flex-direction: column; gap: 40px; }
+    .outcomes__label { font-family: var(--font-mono); font-size: 14px; text-transform: uppercase; color: var(--rust); }
+    .outcomes__row { display: flex; gap: 40px; }
+    .testimonial-card {
+      flex: 1; background: #fff; border: 1px solid var(--tan);
+      padding: 32px; display: flex; flex-direction: column; gap: 12px;
+    }
+    .testimonial-card cite { font-family: var(--font-mono); font-style: normal; font-size: 13px; text-transform: uppercase; color: var(--rust); }
+
+    .brief-form-wrap { padding: 80px; display: flex; justify-content: center; }
+    .brief-form { width: 800px; max-width: 100%; display: flex; flex-direction: column; gap: 48px; align-items: flex-start; }
+    .brief-form__lede { font-family: var(--font-mono); font-size: 14px; text-transform: uppercase; color: var(--rust); }
+    .brief-form__grid { display: flex; flex-wrap: wrap; gap: 40px; width: 100%; }
+    .field { display: flex; flex-direction: column; gap: 12px; width: 380px; max-width: 100%; }
+    .field--wide { flex: 1; min-width: 300px; }
+    .field label { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--gray); }
+    .field input, .field select, .field textarea {
+      font: inherit; color: var(--ink); background: transparent;
+      border: none; border-bottom: 1px solid var(--tan);
+      padding: 0 0 12px; outline: none; resize: vertical;
+    }
+    .field input::placeholder, .field textarea::placeholder { color: var(--ink); opacity: 0.4; }
+    .field input:focus, .field select:focus, .field textarea:focus { border-bottom-color: var(--rust); }
+    .dropzone {
+      border: 1px dashed var(--tan); height: 160px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gray); font-size: 14px;
+      transition: border-color 0.2s ease;
+    }
+    .dropzone:hover { border-color: var(--rust); }
+
+    @media (max-width: 900px) {
+      .outcomes__row { flex-direction: column; }
+      .outcomes, .brief-form-wrap { padding: 48px 40px; }
+    }
