@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5c4630"/>
+      <stop offset="0.55" stop-color="#3e2e1e"/>
+      <stop offset="1" stop-color="#281e12"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <g>
+    <path d="M -20 -4 Q 48 7 115 -3 Q 214 16 312 -5 Q 421 -24 530 1 Q 577 -2 624 -5 Q 719 -12 814 -8 Q 910 -2 1006 -1" fill="none" stroke="#281e12" stroke-opacity="0.10" stroke-width="1.1"/>
+    <path d="M -20 77 Q 56 67 131 74 Q 220 82 308 78 Q 382 82 455 79 Q 514 78 572 78 Q 665 71 757 75 Q 824 68 892 75" fill="none" stroke="#281e12" stroke-opacity="0.13" stroke-width="1.9"/>
+    <path d="M -20 136 Q 33 147 85 132 Q 136 126 188 136 Q 250 152 313 142 Q 376 147 440 139 Q 521 126 603 142 Q 710 116 817 134 Q 883 124 949 135" fill="none" stroke="#281e12" stroke-opacity="0.15" stroke-width="1.0"/>
+    <path d="M -20 221 Q 26 231 72 218 Q 131 212 189 219 Q 242 213 295 218 Q 377 220 460 219 Q 539 228 618 224 Q 686 231 753 224 Q 835 220 916 219" fill="none" stroke="#281e12" stroke-opacity="0.06" stroke-width="2.4"/>
+    <path d="M -20 288 Q 85 294 190 282 Q 281 284 371 288 Q 471 285 570 288 Q 658 283 746 289 Q 819 296 892 284" fill="none" stroke="#281e12" stroke-opacity="0.13" stroke-width="1.1"/>
+    <path d="M -20 353 Q 35 353 89 349 Q 186 346 283 354 Q 384 346 485 349 Q 579 352 674 358 Q 741 351 808 358 Q 875 360 943 357" fill="none" stroke="#281e12" stroke-opacity="0.07" stroke-width="1.9"/>
+    <path d="M -20 437 Q 80 442 180 440 Q 264 431 348 443 Q 400 442 452 440 Q 517 440 583 436 Q 677 430 771 443 Q 841 442 911 437" fill="none" stroke="#281e12" stroke-opacity="0.14" stroke-width="1.5"/>
+    <path d="M -20 501 Q 57 495 134 505 Q 223 500 312 507 Q 418 507 525 496 Q 615 504 706 502 Q 752 506 798 500 Q 882 505 966 498" fill="none" stroke="#281e12" stroke-opacity="0.05" stroke-width="2.5"/>
+    <path d="M -20 567 Q 34 574 88 570 Q 146 562 205 572 Q 293 568 381 562 Q 453 573 525 561 Q 597 561 670 573 Q 721 573 773 571 Q 866 561 958 569" fill="none" stroke="#281e12" stroke-opacity="0.10" stroke-width="1.8"/>
+    <path d="M -20 636 Q 77 624 174 640 Q 247 628 319 633 Q 394 641 469 637 Q 571 636 674 636 Q 784 627 893 630" fill="none" stroke="#281e12" stroke-opacity="0.09" stroke-width="1.5"/>
+    <path d="M -20 707 Q 27 719 75 707 Q 177 712 279 710 Q 373 701 467 710 Q 526 708 584 708 Q 680 697 775 705 Q 874 716 972 713" fill="none" stroke="#281e12" stroke-opacity="0.06" stroke-width="1.3"/>
+    <path d="M -20 778 Q 73 784 167 781 Q 245 780 324 783 Q 411 784 498 779 Q 575 788 652 779 Q 706 775 759 777 Q 832 780 905 776" fill="none" stroke="#281e12" stroke-opacity="0.09" stroke-width="1.7"/>
+    <path d="M -20 855 Q 31 830 82 857 Q 152 852 223 856 Q 292 841 361 849 Q 463 877 564 852 Q 640 846 715 849 Q 818 872 921 851" fill="none" stroke="#281e12" stroke-opacity="0.08" stroke-width="2.1"/>
+    <path d="M -20 935 Q 50 926 120 938 Q 221 946 323 930 Q 406 949 490 937 Q 565 924 640 929 Q 732 921 825 938" fill="none" stroke="#281e12" stroke-opacity="0.12" stroke-width="1.8"/>
+    <ellipse cx="588" cy="760" rx="10" ry="6" fill="none" stroke="#281e12" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="588" cy="760" rx="19" ry="12" fill="none" stroke="#281e12" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="588" cy="760" rx="28" ry="17" fill="none" stroke="#281e12" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="260" y="499" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="400" y="534" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="28" fill="#e7c49f">Charles, Master Maker</text>
+  </g>
+</svg>

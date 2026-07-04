@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5a4128"/><stop offset="0.55" stop-color="#3a2a1c"/><stop offset="1" stop-color="#241a10"/>
+  </linearGradient></defs>
+  <rect width="700" height="700" fill="url(#g)"/>
+  <g>
+    <path d="M -20 -0 Q 64 -18 148 -6 Q 205 18 262 5 Q 327 -19 391 1 Q 449 16 507 5 Q 603 11 699 3 Q 798 -5 897 2" fill="none" stroke="#241a10" stroke-opacity="0.05" stroke-width="2.1"/>
+    <path d="M -20 49 Q 76 46 172 51 Q 255 55 338 43 Q 398 36 457 51 Q 562 55 667 52 Q 753 31 839 46" fill="none" stroke="#241a10" stroke-opacity="0.11" stroke-width="2.2"/>
+    <path d="M -20 98 Q 47 91 113 94 Q 185 102 257 94 Q 363 79 468 101 Q 536 116 603 96 Q 650 106 697 97 Q 795 105 893 98" fill="none" stroke="#241a10" stroke-opacity="0.12" stroke-width="2.1"/>
+    <path d="M -20 147 Q 67 148 155 141 Q 210 145 266 142 Q 345 145 424 144 Q 518 151 612 141 Q 696 156 779 148" fill="none" stroke="#241a10" stroke-opacity="0.16" stroke-width="1.4"/>
+    <path d="M -20 194 Q 40 186 100 191 Q 178 202 256 198 Q 303 201 351 196 Q 413 182 475 199 Q 529 188 583 192 Q 680 206 776 199" fill="none" stroke="#241a10" stroke-opacity="0.14" stroke-width="2.4"/>
+    <path d="M -20 249 Q 40 244 101 245 Q 154 247 208 244 Q 272 255 336 246 Q 415 254 493 244 Q 585 250 677 244 Q 780 254 883 245" fill="none" stroke="#241a10" stroke-opacity="0.16" stroke-width="1.9"/>
+    <path d="M -20 303 Q 27 307 74 305 Q 131 293 188 304 Q 253 300 318 307 Q 399 295 481 305 Q 573 304 665 308 Q 741 306 817 297" fill="none" stroke="#241a10" stroke-opacity="0.08" stroke-width="1.5"/>
+    <path d="M -20 349 Q 32 355 85 343 Q 146 351 208 343 Q 274 359 340 351 Q 410 338 479 352 Q 581 335 682 348 Q 763 355 843 345" fill="none" stroke="#241a10" stroke-opacity="0.14" stroke-width="2.0"/>
+    <path d="M -20 406 Q 69 414 159 404 Q 222 400 284 410 Q 368 395 452 411 Q 530 430 609 408 Q 702 398 795 412" fill="none" stroke="#241a10" stroke-opacity="0.10" stroke-width="2.1"/>
+    <path d="M -20 448 Q 36 444 93 447 Q 186 437 280 444 Q 366 447 453 453 Q 499 446 546 452 Q 640 443 734 448" fill="none" stroke="#241a10" stroke-opacity="0.09" stroke-width="1.0"/>
+    <path d="M -20 492 Q 82 485 183 489 Q 265 496 346 493 Q 411 488 476 486 Q 573 489 669 489 Q 728 491 786 487" fill="none" stroke="#241a10" stroke-opacity="0.09" stroke-width="1.2"/>
+    <path d="M -20 544 Q 46 531 113 548 Q 162 541 210 541 Q 259 537 308 543 Q 398 536 487 542 Q 591 548 695 543 Q 753 553 812 549" fill="none" stroke="#241a10" stroke-opacity="0.08" stroke-width="2.4"/>
+    <path d="M -20 597 Q 27 589 73 594 Q 132 608 190 603 Q 255 607 321 595 Q 404 588 487 602 Q 565 600 644 601 Q 723 597 802 600" fill="none" stroke="#241a10" stroke-opacity="0.10" stroke-width="1.9"/>
+    <path d="M -20 646 Q 40 655 99 647 Q 145 640 191 647 Q 270 655 348 651 Q 397 652 447 652 Q 541 654 634 645 Q 720 649 806 650" fill="none" stroke="#241a10" stroke-opacity="0.13" stroke-width="2.3"/>
+    <ellipse cx="282" cy="474" rx="10" ry="6" fill="none" stroke="#241a10" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="282" cy="474" rx="19" ry="12" fill="none" stroke="#241a10" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="282" cy="474" rx="28" ry="17" fill="none" stroke="#241a10" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="210" y="349" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="350" y="384" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="24" fill="#e7c49f">Òkè Lounge Chair</text>
+  </g>
+</svg>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spaces Transformed — WoodAccent Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,400;1,200;1,400&family=Space+Mono&family=Hanken+Grotesk:wght@300;400;500&family=Gabarito:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body { font-family: 'Gabarito', var(--font-body); }
+
+    .portfolio { padding: 80px; display: flex; flex-direction: column; gap: 48px; }
+    .portfolio h1 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(48px, 5.5vw, 80px); }
+    .case-list { display: flex; flex-direction: column; gap: 80px; }
+    .case { display: flex; gap: 80px; align-items: center; }
+    .case--flip { flex-direction: row-reverse; }
+    .case__img { width: 720px; max-width: 56%; height: 540px; object-fit: cover; flex-shrink: 0; }
+    .case__copy { flex: 1; display: flex; flex-direction: column; gap: 24px; align-items: flex-start; }
+    .case__title { font-family: var(--font-serif); font-style: italic; font-size: clamp(36px, 3.9vw, 56px); line-height: 1.1; }
+    .case__desc { font-size: 18px; color: var(--gray); }
+    .case__link {
+      font-family: var(--font-mono); font-size: 12px; text-transform: uppercase;
+      border-bottom: 1px solid var(--ink); padding-bottom: 4px;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .case__link:hover { color: var(--rust); border-color: var(--rust); }
+
+    .outcome-chips {
+      background: #fff; border-top: 1px solid var(--tan); border-bottom: 1px solid var(--tan);
+      padding: 24px 80px; display: flex; gap: 12px; flex-wrap: wrap;
+    }
+    .stat-chip {
+      background: var(--cream); border: 1px solid var(--tan); border-radius: 999px;
+      padding: 8px 12px; display: flex; gap: 8px; align-items: baseline;
+    }
+    .stat-chip .k { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--gray); }
+    .stat-chip .v { font-weight: 600; font-size: 14px; }
+
+    .pull-quote { background: #fff; padding: 120px; display: flex; flex-direction: column; gap: 40px; align-items: center; }
+    .pull-quote blockquote {
+      font-family: var(--font-serif); font-style: italic; font-weight: 200;
+      font-size: clamp(28px, 2.8vw, 40px); line-height: 1.4; text-align: center; max-width: 900px;
+    }
+    .pull-quote cite { font-family: var(--font-mono); font-style: normal; font-size: 13px; text-transform: uppercase; color: var(--rust); }
+
+    .cta-band {
+      background: var(--ink); color: var(--cream);
+      padding: 80px; display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap;
+    }
+    .cta-band h2 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(32px, 3.3vw, 48px); }
+
+    @media (max-width: 1024px) {
+      .portfolio { padding: 48px 40px; }
+      .case, .case--flip { flex-direction: column; gap: 32px; align-items: flex-start; }
+      .case__img { width: 100%; max-width: 100%; height: 380px; }
+      .outcome-chips { padding: 24px 40px; }
+      .pull-quote { padding: 80px 40px; }
+      .cta-band { padding: 48px 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="site-nav__links">
+      <a href="shop.html" style="color: var(--gray);">Act I</a>
+      <a href="brief.html" aria-current="page">Act II</a>
+    </div>
+    <a class="site-nav__logo" href="index.html">Wood<span>Accent</span></a>
+    <div class="site-nav__links" style="align-items: center;">
+      <a href="journal.html">Journal</a>
+      <a href="#" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <main class="portfolio">
+    <h1>Spaces Transformed</h1>
+    <div class="case-list">
+      <article class="case">
+        <img class="case__img" src="assets/img/room-living.svg" alt="Double-height living room with Irókò dining table">
+        <div class="case__copy">
+          <span class="eyebrow">Residential &ndash; Lekki, Lagos</span>
+          <h2 class="case__title">A family home that finally felt intentional</h2>
+          <p class="case__desc">A double-height living volume centered around a 4-meter solid Ir&oacute;k&ograve; dining anchor.</p>
+          <a class="case__link" href="transformation.html">View Walkthrough</a>
+        </div>
+      </article>
+      <article class="case case--flip">
+        <img class="case__img" src="assets/img/room-dining.svg" alt="Boardroom with commanding walnut table">
+        <div class="case__copy">
+          <span class="eyebrow">Hospitality &ndash; Enugu, Nigeria</span>
+          <h2 class="case__title">A boardroom that commands respect</h2>
+          <p class="case__desc">A series of outdoor rooms built to weather the elements while retaining softness.</p>
+          <a class="case__link" href="transformation.html">View Walkthrough</a>
+        </div>
+      </article>
+      <article class="case">
+        <img class="case__img" src="assets/img/room-bedroom.svg" alt="Bedroom sanctuary with black walnut shelving">
+        <div class="case__copy">
+          <span class="eyebrow">Workspace &ndash; Victoria Island</span>
+          <h2 class="case__title">A bedroom that became a sanctuary</h2>
+          <p class="case__desc">Library shelving and integrated desks carved from Nigerian Black Walnut.</p>
+          <a class="case__link" href="transformation.html">View Walkthrough</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <div class="outcome-chips">
+    <div class="stat-chip"><span class="k">Average project timeline</span><span class="v">14 weeks</span></div>
+    <div class="stat-chip"><span class="k">Pieces per commission</span><span class="v">8-24</span></div>
+    <div class="stat-chip"><span class="k">Client satisfaction</span><span class="v">100% would commission again</span></div>
+  </div>
+
+  <section class="pull-quote">
+    <blockquote>&ldquo;We didn't just buy furniture. We bought the feeling of finally being home.&rdquo;</blockquote>
+    <cite>&ndash; Amara Okafor, Creative Director</cite>
+  </section>
+
+  <section class="cta-band">
+    <h2>Ready to build your space?</h2>
+    <a class="btn btn--rust" href="brief.html">Commission your transformation
+      <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+    </a>
+  </section>
+
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <a class="site-footer__logo" href="index.html">Wood<span>Accent</span></a>
+      <div class="site-footer__social">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="journal.html">Journal</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <div>
+        <div class="site-footer__hq-label">Headquarters</div>
+        <div class="site-footer__hq">Victoria Island, Lagos, Nigeria</div>
+      </div>
+      <div class="site-footer__legal">&copy; 2026 WoodAccent Atelier. All materials signed by the maker.</div>
+    </div>
+  </footer>
+
+</body>
+</html>

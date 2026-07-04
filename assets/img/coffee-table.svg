@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="920" viewBox="0 0 920 920">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a3722"/>
+      <stop offset="0.55" stop-color="#2c2118"/>
+      <stop offset="1" stop-color="#1c140c"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="920" fill="url(#g)"/>
+  <g>
+    <path d="M -20 -1 Q 80 18 180 -7 Q 227 9 275 4 Q 350 3 426 -7 Q 496 20 567 3 Q 668 23 768 -4 Q 820 -18 872 -1 Q 962 21 1051 2" fill="none" stroke="#1c140c" stroke-opacity="0.12" stroke-width="2.2"/>
+    <path d="M -20 65 Q 28 74 75 62 Q 180 70 285 63 Q 338 56 391 66 Q 482 52 572 60 Q 651 68 730 64 Q 790 68 849 59 Q 914 64 979 70" fill="none" stroke="#1c140c" stroke-opacity="0.12" stroke-width="2.4"/>
+    <path d="M -20 131 Q 41 141 102 133 Q 167 121 232 131 Q 321 129 410 128 Q 498 140 587 128 Q 634 127 681 130 Q 770 124 860 134 Q 953 131 1046 127" fill="none" stroke="#1c140c" stroke-opacity="0.16" stroke-width="1.5"/>
+    <path d="M -20 204 Q 39 209 99 201 Q 206 203 313 200 Q 372 202 432 206 Q 538 196 645 202 Q 704 214 763 199 Q 811 194 859 202 Q 963 212 1066 206" fill="none" stroke="#1c140c" stroke-opacity="0.16" stroke-width="2.5"/>
+    <path d="M -20 259 Q 86 264 192 254 Q 280 257 368 258 Q 435 253 501 253 Q 564 257 628 265 Q 681 268 734 256 Q 802 266 870 263 Q 943 251 1016 259" fill="none" stroke="#1c140c" stroke-opacity="0.09" stroke-width="2.5"/>
+    <path d="M -20 322 Q 83 310 187 321 Q 284 330 382 317 Q 429 311 477 327 Q 538 329 600 327 Q 667 316 734 328 Q 819 316 904 325 Q 970 316 1036 316" fill="none" stroke="#1c140c" stroke-opacity="0.13" stroke-width="2.5"/>
+    <path d="M -20 397 Q 27 384 73 397 Q 180 420 288 396 Q 349 393 410 397 Q 515 381 621 401 Q 714 413 807 400 Q 891 388 976 395" fill="none" stroke="#1c140c" stroke-opacity="0.09" stroke-width="2.3"/>
+    <path d="M -20 452 Q 74 447 168 446 Q 215 453 262 449 Q 371 459 480 457 Q 542 443 604 447 Q 682 456 759 451 Q 819 450 879 453 Q 968 457 1057 456" fill="none" stroke="#1c140c" stroke-opacity="0.12" stroke-width="1.2"/>
+    <path d="M -20 533 Q 62 530 144 535 Q 202 527 260 529 Q 315 542 370 533 Q 436 530 502 538 Q 580 526 658 536 Q 745 544 833 528 Q 909 540 985 537" fill="none" stroke="#1c140c" stroke-opacity="0.15" stroke-width="1.1"/>
+    <path d="M -20 587 Q 37 595 95 588 Q 200 585 306 592 Q 380 583 454 591 Q 560 581 667 588 Q 752 583 837 586 Q 892 582 946 584" fill="none" stroke="#1c140c" stroke-opacity="0.12" stroke-width="2.0"/>
+    <path d="M -20 651 Q 46 653 113 647 Q 178 648 243 655 Q 324 646 404 646 Q 475 652 546 653 Q 597 647 648 654 Q 719 649 791 649 Q 898 649 1005 652" fill="none" stroke="#1c140c" stroke-opacity="0.09" stroke-width="1.7"/>
+    <path d="M -20 730 Q 49 714 117 733 Q 176 705 234 735 Q 306 747 379 729 Q 481 728 584 726 Q 630 733 676 732 Q 780 709 884 732 Q 953 730 1022 726" fill="none" stroke="#1c140c" stroke-opacity="0.08" stroke-width="1.8"/>
+    <path d="M -20 797 Q 57 802 134 803 Q 192 791 249 802 Q 358 797 466 792 Q 571 795 677 802 Q 762 802 847 793 Q 943 793 1039 796" fill="none" stroke="#1c140c" stroke-opacity="0.14" stroke-width="2.3"/>
+    <path d="M -20 848 Q 51 848 122 847 Q 175 843 228 851 Q 331 838 435 849 Q 529 838 623 852 Q 676 850 728 849 Q 814 844 900 847 Q 983 846 1066 850" fill="none" stroke="#1c140c" stroke-opacity="0.10" stroke-width="1.7"/>
+    <ellipse cx="197" cy="526" rx="10" ry="6" fill="none" stroke="#1c140c" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="197" cy="526" rx="19" ry="12" fill="none" stroke="#1c140c" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="197" cy="526" rx="28" ry="17" fill="none" stroke="#1c140c" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="320" y="459" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="460" y="494" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="32" fill="#e7c49f">Ìbí Coffee Table</text>
+  </g>
+</svg>

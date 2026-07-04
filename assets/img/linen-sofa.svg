@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#aca08a"/><stop offset="0.55" stop-color="#8c7c66"/><stop offset="1" stop-color="#6a5c4a"/>
+  </linearGradient></defs>
+  <rect width="900" height="1100" fill="url(#g)"/>
+  <g>
+    <path d="M -20 7 Q 36 1 93 10 Q 181 10 270 10 Q 330 7 391 1 Q 458 8 526 4 Q 623 1 720 6 Q 809 2 899 9 Q 970 -1 1041 2" fill="none" stroke="#6a5c4a" stroke-opacity="0.12" stroke-width="2.3"/>
+    <path d="M -20 82 Q 68 95 157 86 Q 240 84 324 78 Q 384 63 445 78 Q 515 73 586 83 Q 684 71 783 87 Q 882 68 982 83" fill="none" stroke="#6a5c4a" stroke-opacity="0.07" stroke-width="1.1"/>
+    <path d="M -20 152 Q 25 142 71 155 Q 172 159 273 146 Q 320 159 367 150 Q 434 156 501 152 Q 568 144 634 147 Q 725 160 817 146 Q 876 152 936 149" fill="none" stroke="#6a5c4a" stroke-opacity="0.10" stroke-width="1.8"/>
+    <path d="M -20 231 Q 52 236 124 227 Q 204 236 284 232 Q 352 238 419 234 Q 529 228 639 231 Q 713 237 788 232 Q 868 231 949 236" fill="none" stroke="#6a5c4a" stroke-opacity="0.09" stroke-width="1.2"/>
+    <path d="M -20 308 Q 31 318 82 308 Q 179 307 276 308 Q 336 316 395 307 Q 467 313 538 312 Q 648 307 758 307 Q 857 306 955 304" fill="none" stroke="#6a5c4a" stroke-opacity="0.10" stroke-width="1.5"/>
+    <path d="M -20 388 Q 48 393 115 386 Q 168 400 220 391 Q 311 393 402 384 Q 479 402 557 391 Q 640 394 724 384 Q 772 403 821 382 Q 883 384 944 390" fill="none" stroke="#6a5c4a" stroke-opacity="0.13" stroke-width="2.4"/>
+    <path d="M -20 480 Q 41 471 102 478 Q 154 491 206 481 Q 283 470 360 485 Q 420 486 481 476 Q 544 472 607 480 Q 670 482 734 483 Q 793 472 853 480 Q 924 479 995 478" fill="none" stroke="#6a5c4a" stroke-opacity="0.07" stroke-width="1.2"/>
+    <path d="M -20 555 Q 70 560 159 555 Q 217 570 275 555 Q 350 546 425 553 Q 533 551 642 558 Q 695 558 748 552 Q 808 547 869 553 Q 955 551 1042 559" fill="none" stroke="#6a5c4a" stroke-opacity="0.07" stroke-width="2.4"/>
+    <path d="M -20 627 Q 51 617 121 632 Q 208 637 294 628 Q 385 647 476 630 Q 584 621 692 625 Q 795 642 897 632 Q 971 624 1044 633" fill="none" stroke="#6a5c4a" stroke-opacity="0.07" stroke-width="1.3"/>
+    <path d="M -20 701 Q 52 698 124 700 Q 172 697 219 701 Q 267 700 316 705 Q 403 711 491 705 Q 568 689 645 695 Q 728 709 810 699 Q 864 707 917 701 Q 992 692 1068 701" fill="none" stroke="#6a5c4a" stroke-opacity="0.11" stroke-width="2.1"/>
+    <path d="M -20 794 Q 79 791 178 793 Q 245 798 313 793 Q 362 793 412 790 Q 458 787 504 792 Q 578 786 653 789 Q 756 794 860 800 Q 940 801 1020 796" fill="none" stroke="#6a5c4a" stroke-opacity="0.09" stroke-width="1.1"/>
+    <path d="M -20 857 Q 68 848 156 853 Q 243 876 329 854 Q 439 859 549 854 Q 606 866 663 862 Q 721 846 779 853 Q 838 845 896 856 Q 957 864 1017 854" fill="none" stroke="#6a5c4a" stroke-opacity="0.08" stroke-width="1.7"/>
+    <path d="M -20 936 Q 31 929 82 938 Q 130 936 178 941 Q 263 934 348 935 Q 421 934 494 931 Q 549 931 604 933 Q 670 931 737 938 Q 795 936 853 939 Q 930 940 1008 940" fill="none" stroke="#6a5c4a" stroke-opacity="0.10" stroke-width="1.3"/>
+    <path d="M -20 1012 Q 49 1004 118 1007 Q 174 1028 231 1012 Q 331 1026 431 1009 Q 491 1028 551 1009 Q 635 1030 718 1012 Q 791 1030 864 1017 Q 969 1020 1074 1009" fill="none" stroke="#6a5c4a" stroke-opacity="0.06" stroke-width="1.0"/>
+    <ellipse cx="678" cy="578" rx="10" ry="6" fill="none" stroke="#6a5c4a" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="678" cy="578" rx="19" ry="12" fill="none" stroke="#6a5c4a" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="678" cy="578" rx="28" ry="17" fill="none" stroke="#6a5c4a" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="310" y="549" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="450" y="584" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="31" fill="#e7c49f">Linen Sofa</text>
+  </g>
+</svg>

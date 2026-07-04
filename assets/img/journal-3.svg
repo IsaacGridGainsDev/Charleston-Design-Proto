@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9d8464"/>
+      <stop offset="0.55" stop-color="#7d6448"/>
+      <stop offset="1" stop-color="#5b4a34"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="700" fill="url(#g)"/>
+  <g>
+    <path d="M -20 0 Q 69 -16 158 -3 Q 224 -6 289 0 Q 353 22 417 3 Q 487 9 556 5 Q 611 6 666 6 Q 736 17 805 4 Q 871 -15 937 4 Q 1009 -6 1081 -0" fill="none" stroke="#5b4a34" stroke-opacity="0.13" stroke-width="2.4"/>
+    <path d="M -20 58 Q 36 53 93 52 Q 151 52 209 54 Q 285 43 361 60 Q 433 48 504 61 Q 571 38 637 62 Q 731 74 825 56 Q 887 67 949 54 Q 1057 65 1165 59" fill="none" stroke="#5b4a34" stroke-opacity="0.06" stroke-width="1.5"/>
+    <path d="M -20 98 Q 34 103 89 93 Q 197 111 305 102 Q 399 82 492 95 Q 540 101 588 93 Q 645 82 702 104 Q 798 87 895 104 Q 950 80 1005 97 Q 1103 78 1200 102" fill="none" stroke="#5b4a34" stroke-opacity="0.11" stroke-width="2.3"/>
+    <path d="M -20 147 Q 31 150 83 147 Q 178 143 272 144 Q 331 152 390 149 Q 445 150 500 141 Q 575 143 650 150 Q 742 149 834 143 Q 882 149 929 149 Q 975 151 1021 151" fill="none" stroke="#5b4a34" stroke-opacity="0.09" stroke-width="1.8"/>
+    <path d="M -20 203 Q 67 204 154 206 Q 231 180 308 204 Q 380 195 452 202 Q 511 194 571 206 Q 673 201 776 207 Q 829 204 882 206 Q 978 197 1074 199" fill="none" stroke="#5b4a34" stroke-opacity="0.16" stroke-width="2.0"/>
+    <path d="M -20 253 Q 32 255 85 252 Q 188 257 290 256 Q 372 260 454 249 Q 564 255 674 254 Q 731 242 789 256 Q 881 257 973 250 Q 1050 260 1126 255" fill="none" stroke="#5b4a34" stroke-opacity="0.15" stroke-width="1.1"/>
+    <path d="M -20 305 Q 66 306 151 300 Q 223 308 296 310 Q 346 306 396 309 Q 448 310 501 311 Q 568 302 635 301 Q 695 304 754 308 Q 860 306 966 311 Q 1039 307 1111 300" fill="none" stroke="#5b4a34" stroke-opacity="0.10" stroke-width="1.0"/>
+    <path d="M -20 343 Q 32 334 85 343 Q 164 322 243 338 Q 332 338 421 338 Q 497 337 573 349 Q 621 328 670 338 Q 750 363 831 346 Q 884 344 936 341 Q 1044 352 1153 344" fill="none" stroke="#5b4a34" stroke-opacity="0.08" stroke-width="1.7"/>
+    <path d="M -20 401 Q 62 389 143 400 Q 252 398 362 401 Q 456 409 550 403 Q 619 406 689 397 Q 774 387 859 397 Q 916 397 972 403 Q 1018 411 1065 396" fill="none" stroke="#5b4a34" stroke-opacity="0.15" stroke-width="2.5"/>
+    <path d="M -20 452 Q 86 450 192 457 Q 240 465 287 454 Q 382 436 478 447 Q 557 457 636 455 Q 692 455 749 458 Q 811 467 872 458 Q 961 450 1049 451" fill="none" stroke="#5b4a34" stroke-opacity="0.10" stroke-width="1.2"/>
+    <path d="M -20 491 Q 36 501 93 490 Q 194 493 296 496 Q 400 496 503 491 Q 564 493 625 489 Q 723 481 822 493 Q 889 490 956 492 Q 1065 503 1174 490" fill="none" stroke="#5b4a34" stroke-opacity="0.16" stroke-width="2.5"/>
+    <path d="M -20 551 Q 38 561 96 550 Q 190 565 285 552 Q 375 552 465 546 Q 540 535 615 547 Q 724 546 832 546 Q 906 535 979 552 Q 1039 541 1099 552" fill="none" stroke="#5b4a34" stroke-opacity="0.15" stroke-width="1.0"/>
+    <path d="M -20 604 Q 57 602 133 598 Q 201 605 269 602 Q 379 599 488 608 Q 586 615 684 604 Q 761 616 839 600 Q 898 587 958 604 Q 1032 620 1107 609" fill="none" stroke="#5b4a34" stroke-opacity="0.09" stroke-width="1.8"/>
+    <path d="M -20 642 Q 59 628 137 647 Q 185 629 233 642 Q 343 627 453 639 Q 549 635 645 647 Q 692 631 738 640 Q 838 625 938 644 Q 1041 662 1143 646" fill="none" stroke="#5b4a34" stroke-opacity="0.06" stroke-width="1.8"/>
+    <ellipse cx="331" cy="191" rx="10" ry="6" fill="none" stroke="#5b4a34" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="331" cy="191" rx="19" ry="12" fill="none" stroke="#5b4a34" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="331" cy="191" rx="28" ry="17" fill="none" stroke="#5b4a34" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="360" y="349" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="500" y="384" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#e7c49f">Material Study</text>
+  </g>
+</svg>

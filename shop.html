@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Archive — WoodAccent Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,400;1,200;1,400&family=Space+Mono&family=Hanken+Grotesk:wght@300;400;500&family=Gabarito:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body { font-family: 'Gabarito', var(--font-body); }
+
+    .shop-hero { padding: 120px 80px; display: flex; flex-direction: column; gap: 24px; }
+    .shop-hero h1 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(48px, 5.5vw, 80px); }
+    .shop-hero p { font-size: 24px; color: var(--gray); max-width: 600px; }
+
+    .trust-strip {
+      display: flex; gap: 24px; flex-wrap: wrap;
+      padding: 0 80px 32px; border-bottom: 1px solid var(--tan);
+    }
+    .trust-item {
+      display: flex; gap: 10px; align-items: center;
+      font-family: var(--font-mono); font-size: 12px; text-transform: uppercase;
+    }
+    .trust-item svg { width: 16px; height: 16px; color: var(--rust); flex-shrink: 0; }
+
+    .cat-tabs { display: flex; gap: 40px; padding: 32px 80px 48px; border-bottom: 1px solid var(--tan); flex-wrap: wrap; }
+    .cat-tab { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; padding-bottom: 8px; }
+    .cat-tab.is-active { color: var(--rust); border-bottom: 2px solid var(--rust); }
+
+    .product-grid { padding: 80px; display: flex; flex-direction: column; gap: 80px; }
+    .product-row { display: flex; gap: 32px; }
+    .room-card { flex: 1; display: flex; flex-direction: column; gap: 16px; text-align: left; }
+    .room-card__img-wrap { position: relative; height: 480px; border-radius: 12px; overflow: hidden; }
+    .room-card__img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .room-card:hover .room-card__img-wrap img { transform: scale(1.04); }
+    .room-card__label {
+      position: absolute; left: 16px; bottom: 16px;
+      background: rgba(243, 239, 231, 0.8); border: 1px solid var(--tan); border-radius: 6px;
+      padding: 8px 12px; font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+    }
+    .room-card__name { font-family: var(--font-serif); font-style: italic; font-size: 28px; }
+    .room-card__desc { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: var(--gray); }
+    .room-card__price { font-size: 18px; }
+
+    .complete-look { padding: 80px; display: flex; flex-direction: column; gap: 48px; }
+    .complete-look__header { display: flex; flex-direction: column; gap: 12px; }
+    .complete-look__header .kicker { font-family: var(--font-mono); font-size: 14px; text-transform: uppercase; color: var(--rust); }
+    .complete-look__header h2 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(32px, 3.3vw, 48px); }
+    .complete-look__stage { position: relative; height: 720px; border-radius: 12px; overflow: hidden; }
+    .complete-look__stage > img { width: 100%; height: 100%; object-fit: cover; }
+    .callout { position: absolute; display: flex; flex-direction: column; gap: 8px; align-items: center; color: var(--cream); }
+    .callout__ring {
+      width: 56px; height: 56px; border: 2px solid var(--cream); border-radius: 28px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .callout__ring::after { content: ""; width: 20px; height: 20px; border: 1.5px solid var(--cream); border-radius: 50%; }
+    .callout span { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; }
+    .bundle-row { display: flex; gap: 32px; }
+    .bundle-card {
+      flex: 1; border: 1px solid var(--tan); border-radius: 12px; padding: 24px;
+      display: flex; flex-direction: column; gap: 12px; align-items: flex-start; text-align: left;
+      transition: border-color 0.25s ease, transform 0.25s ease;
+    }
+    .bundle-card:hover { border-color: var(--rust); transform: translateY(-3px); }
+    .bundle-card__kicker { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--gray); }
+    .bundle-card__name { font-family: var(--font-serif); font-style: italic; font-size: 28px; }
+    .bundle-card__save { color: var(--gray); }
+    .bundle-card__price { font-size: 18px; }
+
+    @media (max-width: 1024px) {
+      .shop-hero, .trust-strip, .cat-tabs, .product-grid, .complete-look { padding-left: 40px; padding-right: 40px; }
+      .product-row, .bundle-row { flex-direction: column; }
+      .complete-look__stage { height: 480px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="site-nav__links">
+      <a href="shop.html" aria-current="page">Act I</a>
+      <a href="brief.html" style="color: var(--gray);">Act II</a>
+    </div>
+    <a class="site-nav__logo" href="index.html">Wood<span>Accent</span></a>
+    <div class="site-nav__links" style="align-items: center;">
+      <a href="journal.html">Journal</a>
+      <a href="#" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <header class="shop-hero">
+    <h1>Own the room.</h1>
+    <p>Each piece is chosen to define a space &ndash; not fill it.</p>
+  </header>
+
+  <div class="trust-strip">
+    <div class="trust-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m2.5 8.5 3.5 3.5 7.5-8"/></svg>
+      Handmade to order
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m2.5 8.5 3.5 3.5 7.5-8"/></svg>
+      40-year guarantee
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m2.5 8.5 3.5 3.5 7.5-8"/></svg>
+      Ships in 12-16 weeks
+    </div>
+    <div class="trust-item">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m2.5 8.5 3.5 3.5 7.5-8"/></svg>
+      Named, numbered pieces
+    </div>
+  </div>
+
+  <div class="cat-tabs">
+    <a class="cat-tab is-active" href="#">Living Room</a>
+    <a class="cat-tab" href="#">Dining Room</a>
+    <a class="cat-tab" href="#">Bedroom</a>
+    <a class="cat-tab" href="#">Study</a>
+    <a class="cat-tab" href="#">The Complete Look</a>
+  </div>
+
+  <main class="product-grid">
+    <div class="product-row">
+      <a class="room-card" href="transformation.html" data-modal-product="oak-lounge-chair">
+        <div class="room-card__img-wrap">
+          <img src="assets/img/hero-chair.svg" alt="Oak lounge chair styled in the Loft Residence">
+          <span class="room-card__label">As seen in: The Loft Residence</span>
+        </div>
+        <div class="room-card__name">Oak Lounge Chair</div>
+        <div class="room-card__desc">The centerpiece that makes a room feel intentional.</div>
+        <div class="room-card__price">&#8358;1,450,000</div>
+      </a>
+      <a class="room-card" href="transformation.html">
+        <div class="room-card__img-wrap">
+          <img src="assets/img/console.svg" alt="Kaftan console styled in the Heritage Dining Room">
+          <span class="room-card__label">As seen in: The Heritage Dining Room</span>
+        </div>
+        <div class="room-card__name">Kaftan Console</div>
+        <div class="room-card__desc">A statement entry that sets the tone for the home.</div>
+        <div class="room-card__price">&#8358;2,100,000</div>
+      </a>
+      <a class="room-card" href="transformation.html">
+        <div class="room-card__img-wrap">
+          <img src="assets/img/coffee-table.svg" alt="Wu coffee table styled in the Study Atelier">
+          <span class="room-card__label">As seen in: The Study Atelier</span>
+        </div>
+        <div class="room-card__name">Wu Coffee Table</div>
+        <div class="room-card__desc">A gathering point that invites conversation.</div>
+        <div class="room-card__price">&#8358;850,000</div>
+      </a>
+    </div>
+    <div class="product-row">
+      <a class="room-card" href="transformation.html">
+        <div class="room-card__img-wrap"><img src="assets/img/shelf-system.svg" alt="Arco shelf system"></div>
+        <div class="room-card__name">Arco Shelf System</div>
+        <div class="room-card__desc">A modular system that keeps a room calm.</div>
+        <div class="room-card__price">&#8358;3,200,000</div>
+      </a>
+      <a class="room-card" href="transformation.html">
+        <div class="room-card__img-wrap"><img src="assets/img/side-table.svg" alt="Pedestal side table"></div>
+        <div class="room-card__name">Pedestal Side Table</div>
+        <div class="room-card__desc">A sculptural accent that adds depth.</div>
+        <div class="room-card__price">&#8358;420,000</div>
+      </a>
+      <a class="room-card" href="transformation.html">
+        <div class="room-card__img-wrap"><img src="assets/img/woven-bench.svg" alt="Woven bench"></div>
+        <div class="room-card__name">Woven Bench</div>
+        <div class="room-card__desc">A flexible seat that creates a sense of flow.</div>
+        <div class="room-card__price">&#8358;680,000</div>
+      </a>
+    </div>
+    <div class="product-row">
+      <a class="room-card" href="transformation.html">
+        <div class="room-card__img-wrap"><img src="assets/img/marble-desk.svg" alt="Marble slab desk"></div>
+        <div class="room-card__name">Marble Slab Desk</div>
+        <div class="room-card__desc">A workspace that feels like a sanctuary.</div>
+        <div class="room-card__price">&#8358;4,800,000</div>
+      </a>
+      <a class="room-card" href="transformation.html">
+        <div class="room-card__img-wrap"><img src="assets/img/linen-sofa.svg" alt="Linen sofa"></div>
+        <div class="room-card__name">Linen Sofa</div>
+        <div class="room-card__desc">A foundation piece that anchors the room.</div>
+        <div class="room-card__price">&#8358;5,200,000</div>
+      </a>
+      <a class="room-card" href="transformation.html">
+        <div class="room-card__img-wrap"><img src="assets/img/terrazzo-platter.svg" alt="Terrazzo platter"></div>
+        <div class="room-card__name">Terrazzo Platter</div>
+        <div class="room-card__desc">A decorative anchor for the dining table.</div>
+        <div class="room-card__price">&#8358;120,000</div>
+      </a>
+    </div>
+  </main>
+
+  <section class="complete-look">
+    <div class="complete-look__header">
+      <span class="kicker">Shop the Complete Look</span>
+      <h2>A fully furnished room, curated for calm.</h2>
+    </div>
+    <div class="complete-look__stage">
+      <img src="assets/img/complete-look.svg" alt="Fully furnished living room curation">
+      <div class="callout" style="left: 8.3%; top: 25%;">
+        <div class="callout__ring"></div>
+        <span>Oak Lounge Chair</span>
+      </div>
+      <div class="callout" style="left: 56.9%; top: 19.4%;">
+        <div class="callout__ring"></div>
+        <span>Walnut Shelf System</span>
+      </div>
+      <div class="callout" style="left: 38.9%; top: 72.2%;">
+        <div class="callout__ring"></div>
+        <span>Travertine Side Table</span>
+      </div>
+    </div>
+    <div class="bundle-row">
+      <a class="bundle-card" href="cart.html">
+        <span class="bundle-card__kicker">Bundle</span>
+        <span class="bundle-card__name">The Living Room Edit</span>
+        <span class="bundle-card__save">Save &#8358;450,000 on the full curation.</span>
+        <span class="bundle-card__price">&#8358;8,250,000</span>
+      </a>
+      <a class="bundle-card" href="cart.html">
+        <span class="bundle-card__kicker">Bundle</span>
+        <span class="bundle-card__name">The Dining Room Edit</span>
+        <span class="bundle-card__save">Save &#8358;320,000 on the full curation.</span>
+        <span class="bundle-card__price">&#8358;6,800,000</span>
+      </a>
+      <a class="bundle-card" href="cart.html">
+        <span class="bundle-card__kicker">Bundle</span>
+        <span class="bundle-card__name">The Study Edit</span>
+        <span class="bundle-card__save">Save &#8358;180,000 on the full curation.</span>
+        <span class="bundle-card__price">&#8358;4,950,000</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <a class="site-footer__logo" href="index.html">Wood<span>Accent</span></a>
+      <div class="site-footer__social">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="journal.html">Journal</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <div>
+        <div class="site-footer__hq-label">Headquarters</div>
+        <div class="site-footer__hq">Victoria Island, Lagos, Nigeria</div>
+      </div>
+      <div class="site-footer__legal">&copy; 2026 WoodAccent Atelier. All materials signed by the maker.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

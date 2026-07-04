@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Commission — WoodAccent Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,400;1,200;1,400&family=Space+Mono&family=Hanken+Grotesk:wght@300;400;500&family=Gabarito:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body { font-family: 'Gabarito', var(--font-body); }
+
+    .cart-layout { display: flex; gap: 120px; padding: 80px; align-items: flex-start; }
+    .cart-main { flex: 1; display: flex; flex-direction: column; gap: 48px; min-width: 0; }
+
+    .value-strip { display: flex; gap: 12px; flex-wrap: wrap; }
+    .value-chip {
+      background: #fff; border: 1px solid var(--tan); border-radius: 999px;
+      padding: 8px 12px; font-family: var(--font-mono); font-size: 12px;
+      text-transform: uppercase; color: var(--gray);
+    }
+
+    .cart-title { font-family: var(--font-serif); font-weight: 200; font-size: 48px; }
+
+    .cart-line {
+      display: flex; gap: 32px; align-items: center;
+      padding: 32px 0; border-bottom: 1px solid var(--tan);
+    }
+    .cart-line img { width: 160px; height: 200px; object-fit: cover; flex-shrink: 0; }
+    .cart-line__info { flex: 1; min-width: 0; }
+    .cart-line__name { font-family: var(--font-serif); font-style: italic; font-size: 28px; }
+    .cart-line__spec { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; color: var(--gray); margin-top: 8px; }
+    .cart-line__price { font-size: 20px; }
+
+    .info-note {
+      background: #fff; border-radius: 4px; padding: 32px;
+      display: flex; gap: 16px; align-items: center; color: var(--gray);
+    }
+    .info-note svg { width: 20px; height: 20px; flex-shrink: 0; color: var(--rust); }
+    .info-note strong { color: var(--ink); font-weight: 600; }
+
+    .outcome-value { display: flex; flex-direction: column; gap: 16px; }
+    .outcome-value__label { font-family: var(--font-mono); font-size: 14px; text-transform: uppercase; color: var(--rust); }
+    .outcome-point { display: flex; gap: 12px; align-items: center; }
+    .outcome-point::before { content: ""; width: 6px; height: 6px; border-radius: 3px; background: var(--rust); flex-shrink: 0; }
+
+    .checkout-card {
+      width: 440px; flex-shrink: 0;
+      background: #fff; border: 1px solid var(--tan);
+      padding: 48px; display: flex; flex-direction: column; gap: 40px;
+    }
+    .checkout-card h2 { font-family: var(--font-serif); font-weight: 200; font-size: 32px; }
+    .field { display: flex; flex-direction: column; gap: 12px; }
+    .field + .field { margin-top: 32px; }
+    .field label { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--gray); }
+    .field input, .field textarea {
+      font: inherit; color: var(--ink); background: transparent;
+      border: none; border-bottom: 1px solid var(--tan);
+      padding: 0 0 12px; outline: none; resize: vertical;
+    }
+    .field input::placeholder, .field textarea::placeholder { color: var(--ink); opacity: 0.4; }
+    .field input:focus, .field textarea:focus { border-bottom-color: var(--rust); }
+    .checkout-card__subtotal { display: flex; justify-content: space-between; align-items: baseline; }
+    .checkout-card__subtotal .label { font-family: var(--font-mono); font-size: 13px; color: var(--gray); }
+    .checkout-card__cta { justify-content: center; width: 100%; box-sizing: border-box; }
+
+    @media (max-width: 1100px) {
+      .cart-layout { flex-direction: column; gap: 48px; padding: 40px; }
+      .checkout-card { width: 100%; box-sizing: border-box; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="site-nav__links">
+      <a href="shop.html" aria-current="page">Act I</a>
+      <a href="brief.html" style="color: var(--gray);">Act II</a>
+    </div>
+    <a class="site-nav__logo" href="index.html">Wood<span>Accent</span></a>
+    <div class="site-nav__links" style="align-items: center;">
+      <a href="journal.html">Journal</a>
+      <a href="#" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <main class="cart-layout">
+    <div class="cart-main">
+      <div class="value-strip">
+        <span class="value-chip">12-16 weeks</span>
+        <span class="value-chip">Made by hand in our atelier</span>
+        <span class="value-chip">40-year structural guarantee</span>
+        <span class="value-chip">Numbered piece</span>
+      </div>
+
+      <h1 class="cart-title">Your Commission</h1>
+
+      <div>
+        <div class="cart-line">
+          <img src="assets/img/cart-piece.svg" alt="Oak lounge chair">
+          <div class="cart-line__info">
+            <div class="cart-line__name">Oak Lounge Chair</div>
+            <div class="cart-line__spec">Natural / Linen</div>
+          </div>
+          <div class="cart-line__price">&#8358;1,450,000</div>
+        </div>
+        <div class="cart-line">
+          <img src="assets/img/console.svg" alt="Kaftan console">
+          <div class="cart-line__info">
+            <div class="cart-line__name">Kaftan Console</div>
+            <div class="cart-line__spec">Ebony / Brass</div>
+          </div>
+          <div class="cart-line__price">&#8358;2,100,000</div>
+        </div>
+      </div>
+
+      <div class="info-note">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10" cy="10" r="8"/><path d="M10 9v5M10 6v.5"/></svg>
+        <p><strong>Every piece is made specifically for you &ndash;</strong> never mass-produced, never rushed.</p>
+      </div>
+
+      <div class="outcome-value">
+        <span class="outcome-value__label">What you're really investing in</span>
+        <div class="outcome-point">Heirloom quality</div>
+        <div class="outcome-point">A named, numbered piece</div>
+        <div class="outcome-point">40 years of structural guarantee</div>
+      </div>
+    </div>
+
+    <aside class="checkout-card">
+      <h2>Finalize Commission</h2>
+      <form onsubmit="return false;">
+        <div class="field">
+          <label for="f-name">Name</label>
+          <input id="f-name" type="text" placeholder="Tunde Adeyemi" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" type="email" placeholder="tunde@residence.com" autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="f-address">Shipping Address</label>
+          <input id="f-address" type="text" placeholder="12 Glover Road, Ikoyi" autocomplete="street-address">
+        </div>
+        <div class="field">
+          <label for="f-notes">Notes for the Maker</label>
+          <textarea id="f-notes" rows="1" placeholder="Special requests or finish adjustments..."></textarea>
+        </div>
+      </form>
+      <div>
+        <div class="checkout-card__subtotal">
+          <span class="label">Subtotal</span>
+          <span>&#8358;3,550,000</span>
+        </div>
+        <hr class="rule" style="margin: 16px 0;">
+        <button class="btn btn--rust checkout-card__cta" type="submit">Confirm My Commission
+          <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+        </button>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <a class="site-footer__logo" href="index.html">Wood<span>Accent</span></a>
+      <div class="site-footer__social">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="journal.html">Journal</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <div>
+        <div class="site-footer__hq-label">Headquarters</div>
+        <div class="site-footer__hq">Victoria Island, Lagos, Nigeria</div>
+      </div>
+      <div class="site-footer__legal">&copy; 2026 WoodAccent Atelier. All materials signed by the maker.</div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8b0a6"/>
+      <stop offset="0.55" stop-color="#9c9288"/>
+      <stop offset="1" stop-color="#7a7268"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="760" fill="url(#g)"/>
+  <g>
+    <path d="M -20 -8 Q 82 3 184 -11 Q 262 -7 339 -9 Q 416 -10 493 -2 Q 578 14 664 -3 Q 721 5 777 -9 Q 861 -5 945 -5 Q 1009 1 1074 -9 Q 1170 -8 1266 -6" fill="none" stroke="#7a7268" stroke-opacity="0.16" stroke-width="1.4"/>
+    <path d="M -20 44 Q 59 51 138 48 Q 241 39 344 50 Q 414 55 485 48 Q 553 41 622 43 Q 689 40 756 49 Q 805 68 854 48 Q 936 51 1017 42 Q 1112 62 1206 43" fill="none" stroke="#7a7268" stroke-opacity="0.10" stroke-width="1.4"/>
+    <path d="M -20 104 Q 67 101 153 105 Q 211 81 268 102 Q 350 89 432 104 Q 498 93 565 106 Q 633 115 702 107 Q 771 82 840 108 Q 921 107 1002 106 Q 1083 122 1163 98" fill="none" stroke="#7a7268" stroke-opacity="0.16" stroke-width="2.0"/>
+    <path d="M -20 161 Q 83 166 186 155 Q 272 157 357 162 Q 456 143 555 165 Q 621 149 686 155 Q 738 150 790 161 Q 896 145 1002 158 Q 1071 168 1140 159" fill="none" stroke="#7a7268" stroke-opacity="0.12" stroke-width="1.2"/>
+    <path d="M -20 208 Q 72 195 164 203 Q 253 193 341 213 Q 431 196 521 207 Q 569 194 618 206 Q 720 222 822 211 Q 909 211 995 208 Q 1083 208 1170 207" fill="none" stroke="#7a7268" stroke-opacity="0.14" stroke-width="1.5"/>
+    <path d="M -20 270 Q 88 263 195 269 Q 266 258 338 268 Q 434 257 530 269 Q 594 273 657 273 Q 710 269 762 266 Q 849 277 936 266 Q 996 262 1056 267 Q 1159 284 1262 273" fill="none" stroke="#7a7268" stroke-opacity="0.09" stroke-width="1.7"/>
+    <path d="M -20 320 Q 87 307 194 318 Q 251 330 309 317 Q 386 306 462 322 Q 541 329 619 322 Q 713 313 806 317 Q 890 306 974 325 Q 1065 320 1157 318" fill="none" stroke="#7a7268" stroke-opacity="0.06" stroke-width="1.9"/>
+    <path d="M -20 385 Q 31 389 83 385 Q 179 384 276 391 Q 378 382 479 386 Q 562 385 646 389 Q 736 391 827 382 Q 905 386 983 386 Q 1029 391 1075 385 Q 1130 391 1186 386" fill="none" stroke="#7a7268" stroke-opacity="0.13" stroke-width="2.2"/>
+    <path d="M -20 437 Q 29 429 77 433 Q 164 423 250 431 Q 304 421 358 437 Q 432 435 507 431 Q 586 425 666 432 Q 714 420 763 436 Q 819 435 875 433 Q 967 455 1060 435 Q 1110 459 1159 432" fill="none" stroke="#7a7268" stroke-opacity="0.12" stroke-width="2.2"/>
+    <path d="M -20 488 Q 35 499 89 493 Q 192 505 296 487 Q 374 505 452 487 Q 514 466 575 485 Q 630 509 684 486 Q 752 511 820 491 Q 893 469 966 487 Q 1030 510 1094 487 Q 1202 477 1310 483" fill="none" stroke="#7a7268" stroke-opacity="0.15" stroke-width="1.1"/>
+    <path d="M -20 549 Q 43 561 107 548 Q 216 551 325 554 Q 430 544 536 551 Q 628 554 720 543 Q 810 558 900 545 Q 951 533 1002 549 Q 1054 561 1106 548 Q 1216 557 1325 548" fill="none" stroke="#7a7268" stroke-opacity="0.07" stroke-width="1.7"/>
+    <path d="M -20 599 Q 83 591 186 594 Q 274 608 362 601 Q 460 614 557 601 Q 655 582 754 605 Q 842 580 930 595 Q 1017 590 1104 605 Q 1167 599 1230 599" fill="none" stroke="#7a7268" stroke-opacity="0.15" stroke-width="1.5"/>
+    <path d="M -20 659 Q 62 678 144 664 Q 238 661 331 654 Q 391 665 450 655 Q 537 653 624 658 Q 722 673 821 662 Q 895 661 969 665 Q 1074 664 1179 654" fill="none" stroke="#7a7268" stroke-opacity="0.15" stroke-width="1.1"/>
+    <path d="M -20 698 Q 38 708 96 700 Q 151 714 207 704 Q 295 717 382 702 Q 458 711 534 703 Q 624 682 714 697 Q 805 693 896 694 Q 971 684 1045 698 Q 1097 707 1148 695" fill="none" stroke="#7a7268" stroke-opacity="0.15" stroke-width="1.2"/>
+    <ellipse cx="637" cy="445" rx="10" ry="6" fill="none" stroke="#7a7268" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="637" cy="445" rx="19" ry="12" fill="none" stroke="#7a7268" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="637" cy="445" rx="28" ry="17" fill="none" stroke="#7a7268" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="410" y="379" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="550" y="414" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="26" fill="#e7c49f">Before</text>
+  </g>
+</svg>

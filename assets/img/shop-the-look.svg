@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b09878"/>
+      <stop offset="0.55" stop-color="#8f7a60"/>
+      <stop offset="1" stop-color="#6e5c46"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#g)"/>
+  <g>
+    <path d="M -20 -7 Q 83 -15 185 -11 Q 250 -1 314 -3 Q 369 -18 424 -11 Q 491 -7 557 -12 Q 623 -17 689 -2 Q 782 -20 874 -2 Q 926 -11 977 -2 Q 1074 -0 1171 -8 Q 1228 -3 1286 -12 Q 1345 -11 1403 -13 Q 1474 1 1545 -5" fill="none" stroke="#6e5c46" stroke-opacity="0.11" stroke-width="2.0"/>
+    <path d="M -20 64 Q 64 62 148 66 Q 253 62 357 64 Q 450 62 544 60 Q 636 70 728 67 Q 818 70 909 66 Q 996 63 1082 61 Q 1168 56 1254 63 Q 1350 67 1446 65 Q 1507 62 1568 63" fill="none" stroke="#6e5c46" stroke-opacity="0.12" stroke-width="1.7"/>
+    <path d="M -20 132 Q 37 140 94 135 Q 164 132 234 138 Q 282 134 329 128 Q 425 154 521 132 Q 572 136 624 133 Q 716 133 807 134 Q 906 133 1005 131 Q 1112 118 1218 134 Q 1289 145 1359 128 Q 1468 125 1577 127" fill="none" stroke="#6e5c46" stroke-opacity="0.08" stroke-width="1.6"/>
+    <path d="M -20 183 Q 52 189 125 181 Q 187 175 249 186 Q 355 184 461 180 Q 558 180 656 180 Q 709 191 762 187 Q 849 182 935 184 Q 994 196 1054 181 Q 1141 192 1227 187 Q 1303 177 1378 184 Q 1431 193 1484 181" fill="none" stroke="#6e5c46" stroke-opacity="0.14" stroke-width="1.4"/>
+    <path d="M -20 255 Q 53 248 125 249 Q 217 250 309 252 Q 374 254 438 254 Q 525 258 611 253 Q 717 263 822 249 Q 921 264 1020 258 Q 1074 262 1128 256 Q 1174 244 1220 260 Q 1308 249 1395 250 Q 1449 249 1504 258" fill="none" stroke="#6e5c46" stroke-opacity="0.09" stroke-width="1.2"/>
+    <path d="M -20 330 Q 36 347 92 331 Q 188 337 283 334 Q 380 344 476 326 Q 566 331 656 332 Q 729 346 803 330 Q 865 318 927 325 Q 1004 310 1081 329 Q 1136 329 1190 329 Q 1270 345 1350 324 Q 1450 328 1550 330" fill="none" stroke="#6e5c46" stroke-opacity="0.12" stroke-width="2.3"/>
+    <path d="M -20 383 Q 87 371 195 385 Q 281 370 368 385 Q 457 396 546 381 Q 655 384 764 383 Q 867 370 971 386 Q 1056 379 1142 388 Q 1211 382 1280 384 Q 1375 375 1470 382" fill="none" stroke="#6e5c46" stroke-opacity="0.10" stroke-width="1.9"/>
+    <path d="M -20 457 Q 79 454 178 457 Q 240 457 303 462 Q 390 463 478 455 Q 544 452 609 458 Q 696 463 782 451 Q 874 466 966 457 Q 1014 452 1062 451 Q 1120 467 1177 458 Q 1265 463 1352 461 Q 1437 459 1522 458" fill="none" stroke="#6e5c46" stroke-opacity="0.13" stroke-width="2.0"/>
+    <path d="M -20 518 Q 68 517 157 521 Q 208 511 260 512 Q 355 526 451 520 Q 520 525 589 521 Q 670 513 752 516 Q 824 514 896 517 Q 983 527 1070 513 Q 1152 508 1234 513 Q 1331 519 1429 523 Q 1503 508 1577 517" fill="none" stroke="#6e5c46" stroke-opacity="0.12" stroke-width="2.5"/>
+    <path d="M -20 588 Q 52 576 124 590 Q 182 577 241 582 Q 287 594 332 584 Q 440 575 547 593 Q 601 573 654 591 Q 715 595 776 584 Q 824 597 872 591 Q 973 595 1073 583 Q 1159 595 1245 588 Q 1351 581 1456 594 Q 1548 573 1640 582" fill="none" stroke="#6e5c46" stroke-opacity="0.12" stroke-width="2.3"/>
+    <path d="M -20 634 Q 72 626 165 639 Q 241 624 318 633 Q 400 633 483 637 Q 537 642 592 633 Q 679 638 765 633 Q 836 641 906 640 Q 1002 636 1098 632 Q 1147 646 1195 637 Q 1294 630 1393 636 Q 1502 643 1610 636" fill="none" stroke="#6e5c46" stroke-opacity="0.08" stroke-width="1.7"/>
+    <path d="M -20 715 Q 70 718 159 720 Q 257 709 354 709 Q 416 713 478 716 Q 576 725 674 709 Q 773 723 873 719 Q 955 709 1037 719 Q 1134 720 1232 720 Q 1299 704 1367 716 Q 1464 707 1561 718" fill="none" stroke="#6e5c46" stroke-opacity="0.15" stroke-width="1.4"/>
+    <path d="M -20 774 Q 55 762 130 771 Q 224 785 318 773 Q 369 786 420 777 Q 480 777 540 778 Q 642 774 745 773 Q 828 761 911 770 Q 968 781 1025 772 Q 1107 770 1188 774 Q 1243 756 1298 780 Q 1367 758 1436 775 Q 1533 760 1629 775" fill="none" stroke="#6e5c46" stroke-opacity="0.09" stroke-width="1.8"/>
+    <path d="M -20 826 Q 89 831 199 826 Q 281 823 362 829 Q 435 832 508 829 Q 606 832 704 823 Q 752 822 799 822 Q 850 820 900 827 Q 1002 826 1103 831 Q 1207 820 1312 827 Q 1382 821 1453 832 Q 1515 827 1577 828" fill="none" stroke="#6e5c46" stroke-opacity="0.16" stroke-width="2.1"/>
+    <ellipse cx="628" cy="422" rx="10" ry="6" fill="none" stroke="#6e5c46" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="628" cy="422" rx="19" ry="12" fill="none" stroke="#6e5c46" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="628" cy="422" rx="28" ry="17" fill="none" stroke="#6e5c46" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="580" y="449" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="720" y="484" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="31" fill="#e7c49f">The Room, Complete</text>
+  </g>
+</svg>

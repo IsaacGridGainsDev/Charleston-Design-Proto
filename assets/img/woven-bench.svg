@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#9a8470"/><stop offset="0.55" stop-color="#7a6450"/><stop offset="1" stop-color="#584838"/>
+  </linearGradient></defs>
+  <rect width="900" height="1100" fill="url(#g)"/>
+  <g>
+    <path d="M -20 5 Q 54 6 127 0 Q 188 -1 249 3 Q 337 -5 425 2 Q 526 16 628 10 Q 724 -7 819 5 Q 919 17 1018 2" fill="none" stroke="#584838" stroke-opacity="0.10" stroke-width="1.9"/>
+    <path d="M -20 69 Q 73 72 166 68 Q 249 69 331 67 Q 381 74 432 72 Q 505 75 578 73 Q 668 75 758 74 Q 806 78 853 68 Q 949 74 1044 64" fill="none" stroke="#584838" stroke-opacity="0.11" stroke-width="1.1"/>
+    <path d="M -20 162 Q 49 156 119 165 Q 206 157 292 165 Q 349 169 406 163 Q 501 165 596 168 Q 686 161 776 163 Q 858 156 940 159" fill="none" stroke="#584838" stroke-opacity="0.14" stroke-width="2.3"/>
+    <path d="M -20 245 Q 58 241 136 247 Q 223 263 310 248 Q 380 236 450 240 Q 546 242 641 244 Q 690 245 738 250 Q 801 255 864 248 Q 952 249 1040 242" fill="none" stroke="#584838" stroke-opacity="0.12" stroke-width="1.9"/>
+    <path d="M -20 324 Q 48 337 116 325 Q 183 329 250 319 Q 308 336 365 323 Q 462 314 559 323 Q 620 333 680 325 Q 751 320 821 320 Q 880 330 939 321" fill="none" stroke="#584838" stroke-opacity="0.06" stroke-width="1.6"/>
+    <path d="M -20 392 Q 50 387 120 398 Q 212 390 304 391 Q 363 374 423 392 Q 510 372 596 392 Q 653 397 709 390 Q 797 406 885 391 Q 955 370 1025 388" fill="none" stroke="#584838" stroke-opacity="0.12" stroke-width="2.3"/>
+    <path d="M -20 464 Q 84 457 189 465 Q 278 455 366 463 Q 458 463 550 463 Q 632 445 713 464 Q 777 447 842 464 Q 932 466 1023 464" fill="none" stroke="#584838" stroke-opacity="0.12" stroke-width="1.7"/>
+    <path d="M -20 560 Q 26 561 71 562 Q 141 558 211 558 Q 272 566 332 564 Q 396 561 459 559 Q 512 564 566 560 Q 675 568 785 564 Q 847 552 909 563 Q 961 563 1013 556" fill="none" stroke="#584838" stroke-opacity="0.13" stroke-width="1.1"/>
+    <path d="M -20 620 Q 59 618 137 626 Q 233 608 329 623 Q 399 619 469 618 Q 529 611 589 618 Q 646 638 703 619 Q 785 635 866 622 Q 921 641 976 626" fill="none" stroke="#584838" stroke-opacity="0.14" stroke-width="1.5"/>
+    <path d="M -20 714 Q 27 709 74 716 Q 154 731 235 717 Q 334 732 434 712 Q 538 695 642 717 Q 692 714 743 713 Q 793 719 842 717 Q 902 704 961 717" fill="none" stroke="#584838" stroke-opacity="0.11" stroke-width="1.0"/>
+    <path d="M -20 782 Q 43 771 106 781 Q 208 797 311 780 Q 399 758 488 777 Q 557 789 626 778 Q 674 799 722 778 Q 770 761 819 777 Q 882 786 946 784" fill="none" stroke="#584838" stroke-opacity="0.08" stroke-width="1.8"/>
+    <path d="M -20 861 Q 32 865 84 855 Q 189 851 294 862 Q 351 859 409 858 Q 495 871 582 865 Q 690 859 799 862 Q 866 853 934 861" fill="none" stroke="#584838" stroke-opacity="0.16" stroke-width="1.1"/>
+    <path d="M -20 948 Q 64 942 148 950 Q 225 943 302 947 Q 348 938 393 953 Q 443 945 494 950 Q 541 959 588 944 Q 696 946 803 949 Q 888 938 972 948" fill="none" stroke="#584838" stroke-opacity="0.13" stroke-width="2.3"/>
+    <path d="M -20 1026 Q 33 1023 87 1026 Q 134 1037 182 1021 Q 264 1017 345 1022 Q 452 1031 559 1029 Q 644 1029 728 1031 Q 777 1021 826 1023 Q 910 1022 994 1031" fill="none" stroke="#584838" stroke-opacity="0.08" stroke-width="1.4"/>
+    <ellipse cx="675" cy="696" rx="10" ry="6" fill="none" stroke="#584838" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="675" cy="696" rx="19" ry="12" fill="none" stroke="#584838" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="675" cy="696" rx="28" ry="17" fill="none" stroke="#584838" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="310" y="549" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="450" y="584" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="31" fill="#e7c49f">Woven Bench</text>
+  </g>
+</svg>

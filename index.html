@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WoodAccent Atelier — The Collection &amp; The Commission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,400;1,200;1,400&family=Space+Mono&family=Hanken+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* ---- s01 hero ---- */
+    .hero { display: flex; min-height: 960px; position: relative; }
+    .hero__act {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 140px 80px 80px;
+      gap: 40px;
+      transition: flex 0.5s ease;
+    }
+    .hero__act:hover { flex: 1.15; }
+    .hero__act--i { background: var(--ink); color: var(--cream); }
+    .hero__act--ii { background: var(--cream); color: var(--ink); }
+    .hero__divider { width: 1px; background: var(--tan); }
+    .hero__kicker { display: flex; flex-direction: column; gap: 24px; align-items: center; }
+    .hero__title { font-family: var(--font-serif); font-weight: 200; font-style: italic; font-size: clamp(40px, 4.4vw, 64px); text-align: center; }
+    .hero__img { width: 400px; max-width: 100%; height: 500px; object-fit: cover; }
+    .hero__nav {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 80px;
+      z-index: 5;
+    }
+    .hero__nav-links { display: flex; gap: 32px; font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; }
+    .hero__nav-links--left { color: var(--cream); }
+    .hero__nav-links--right { color: var(--ink); align-items: center; }
+    .hero__nav-logo {
+      position: absolute; left: 50%; transform: translateX(-50%);
+      font-family: var(--font-serif); font-style: italic; font-weight: 200; font-size: 28px;
+    }
+    .hero__nav-logo .wa-w { color: var(--cream); }
+    .hero__nav-logo .wa-a { color: var(--ink); }
+
+    /* ---- s02 maker's note ---- */
+    .makers-note { display: flex; flex-direction: column; gap: 80px; align-items: center; padding: 120px 80px; }
+    .makers-note__cols { display: flex; justify-content: space-between; gap: 48px; width: 100%; }
+    .makers-note__col { max-width: 360px; display: flex; flex-direction: column; gap: 24px; }
+    .makers-note__col h3 { font-family: var(--font-serif); font-weight: 200; font-size: 48px; letter-spacing: 0.02em; }
+    .makers-note__col p { font-size: 18px; color: var(--ink); }
+    .makers-note__quote { max-width: 800px; display: flex; flex-direction: column; gap: 32px; align-items: center; }
+    .makers-note__seal {
+      width: 48px; height: 48px; border: 1px solid var(--rust); border-radius: 24px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-serif); font-size: 18px; color: var(--rust);
+    }
+    .makers-note__quote blockquote {
+      font-family: var(--font-serif); font-style: italic; font-weight: 200;
+      font-size: 32px; line-height: 1.4; text-align: center;
+    }
+
+    /* ---- s03 featured pieces ---- */
+    .featured { padding: 120px 80px; display: flex; flex-direction: column; gap: 80px; }
+    .featured__hero-row { position: relative; }
+    .featured__primary { width: 700px; max-width: 60%; display: flex; flex-direction: column; gap: 32px; text-align: left; }
+    .featured__primary-img { height: 600px; width: 100%; object-fit: cover; }
+    .featured__meta { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 24px; }
+    .featured__name { font-family: var(--font-serif); font-style: italic; font-size: 40px; }
+    .featured__spec { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--gray); }
+    .featured__price { font-weight: 300; font-size: 20px; text-align: right; }
+    .featured__add { color: var(--rust); font-size: 14px; text-decoration: underline; }
+    .featured__secondary {
+      position: absolute; right: 0; top: 100px; width: 400px; max-width: 34%;
+      display: flex; flex-direction: column; gap: 24px; text-align: left;
+    }
+    .featured__secondary-img { height: 500px; width: 100%; object-fit: cover; }
+    .featured__secondary .featured__name { font-size: 28px; }
+    .featured__tertiary-row { display: flex; justify-content: flex-end; margin-top: 240px; }
+    .featured__tertiary { display: flex; gap: 40px; align-items: center; width: 800px; max-width: 100%; text-align: left; }
+    .featured__tertiary-copy { width: 300px; flex-shrink: 0; display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }
+    .featured__tertiary-copy h3 { font-family: var(--font-serif); font-style: italic; font-weight: 400; font-size: 32px; }
+    .featured__tertiary-copy p { color: var(--gray); }
+    .featured__tertiary-img { width: 460px; height: 460px; object-fit: cover; }
+
+    /* ---- s04 shop the look ---- */
+    .shop-look {
+      position: relative; isolation: isolate; min-height: 900px; padding: 80px;
+      display: flex; flex-direction: column; justify-content: space-between;
+      color: var(--cream); overflow: hidden;
+    }
+    .shop-look__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.85); }
+    .shop-look__kicker { display: flex; gap: 16px; align-items: center; }
+    .shop-look__kicker::before { content: ""; width: 40px; height: 1px; background: var(--cream); }
+    .shop-look__title { font-family: var(--font-serif); font-weight: 200; font-size: clamp(64px, 8.3vw, 120px); line-height: 0.9; max-width: 600px; }
+    .hotspot { position: absolute; }
+    .hotspot__dot {
+      width: 32px; height: 32px; border-radius: 16px;
+      background: rgba(255, 255, 255, 0.2); border: 1px solid #fff;
+      backdrop-filter: blur(5px);
+      color: #fff; font-size: 18px; line-height: 1;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s ease;
+    }
+    .hotspot__dot:hover { background: rgba(255, 255, 255, 0.45); }
+    .hotspot__tag {
+      position: absolute; left: 44px; top: -38px;
+      background: #fff; color: #000; border-radius: 4px;
+      padding: 8px 16px; text-align: left; white-space: nowrap;
+    }
+    .hotspot__tag .name { font-family: var(--font-serif); font-style: italic; font-size: 14px; display: block; }
+    .hotspot__tag .price { font-family: var(--font-mono); font-size: 10px; display: block; }
+
+    /* ---- s05 atelier panels ---- */
+    .atelier { display: flex; min-height: 800px; background: var(--ink); color: var(--cream); overflow: hidden; }
+    .atelier__panel--open {
+      flex: 1; position: relative; padding: 80px;
+      display: flex; flex-direction: column; justify-content: space-between; gap: 48px;
+    }
+    .atelier__panel--open .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; filter: brightness(0.55); }
+    .atelier__panel--open > div { position: relative; z-index: 1; }
+    .atelier__num { display: flex; gap: 16px; align-items: center; font-family: var(--font-mono); font-size: 14px; color: var(--tan); }
+    .atelier__num::after { content: ""; width: 40px; height: 1px; background: var(--tan); }
+    .atelier__title { font-family: var(--font-serif); font-style: italic; font-weight: 200; font-size: 64px; margin-top: 24px; }
+    .atelier__copy { max-width: 500px; font-size: 20px; opacity: 0.8; margin-top: 24px; }
+    .atelier__footer { display: flex; justify-content: space-between; align-items: flex-end; }
+    .atelier__rail {
+      width: 120px; flex-shrink: 0; background: var(--ink-2); border-left: 1px solid var(--ink);
+      display: flex; flex-direction: column; align-items: center; padding: 80px 0; gap: 120px;
+    }
+    .atelier__rail-num { font-family: var(--font-mono); font-size: 14px; color: var(--tan); }
+    .atelier__rail-label {
+      font-family: var(--font-serif); font-size: 32px; color: var(--cream);
+      writing-mode: vertical-rl;
+    }
+
+    /* ---- s06 final CTA ---- */
+    .final-cta { display: flex; flex-direction: column; align-items: center; padding-top: 120px; background: var(--cream); }
+    .final-cta__head { display: flex; flex-direction: column; gap: 24px; align-items: center; padding-bottom: 80px; text-align: center; }
+    .final-cta__title { font-family: var(--font-serif); font-weight: 200; font-size: clamp(36px, 3.9vw, 56px); }
+    .preview-gallery { display: flex; flex-direction: column; gap: 24px; padding: 0 80px 80px; width: 100%; }
+    .preview-gallery__row { display: flex; gap: 24px; }
+    .preview-card {
+      position: relative; flex: 1; height: 520px;
+      border: 1px solid var(--rust); overflow: hidden;
+      display: flex; text-align: left;
+    }
+    .preview-card img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+    .preview-card:hover img.bg { transform: scale(1.04); }
+    .preview-card__overlay {
+      position: relative; flex: 1; padding: 24px;
+      display: flex; flex-direction: column; justify-content: space-between;
+      background: linear-gradient(to bottom, rgba(20,17,13,0) 0%, rgba(20,17,13,0.8) 100%);
+      color: var(--cream);
+    }
+    .preview-card__title { font-family: var(--font-serif); font-size: 28px; }
+    .preview-card__tag { font-family: var(--font-serif); font-style: italic; font-size: 14px; opacity: 0.9; margin-top: 12px; }
+    .preview-card__arrow { position: absolute; bottom: 15px; right: 15px; width: 18px; height: 18px; color: var(--cream); }
+    .pathways { display: flex; min-height: 600px; width: 100%; }
+    .pathway {
+      position: relative; isolation: isolate; flex: 1; padding: 80px;
+      display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 40px;
+      color: var(--cream); overflow: hidden;
+    }
+    .pathway img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.7); }
+    .pathway__title { font-family: var(--font-serif); font-size: 32px; }
+
+    @media (max-width: 1024px) {
+      .hero { flex-direction: column; min-height: 0; }
+      .hero__act { padding: 120px 40px 60px; }
+      .hero__nav { padding: 0 40px; }
+      .makers-note__cols { flex-direction: column; align-items: center; }
+      .featured__primary, .featured__secondary { position: static; max-width: 100%; width: 100%; }
+      .featured__hero-row { display: flex; flex-direction: column; gap: 64px; }
+      .featured__tertiary-row { margin-top: 64px; }
+      .featured__tertiary { flex-direction: column; align-items: flex-start; }
+      .preview-gallery__row { flex-direction: column; }
+      .preview-card { height: 420px; }
+      .pathways { flex-direction: column; }
+      .makers-note, .featured, .shop-look { padding-left: 40px; padding-right: 40px; }
+      .atelier { flex-direction: column; }
+      .atelier__rail { width: 100%; flex-direction: row; padding: 24px 40px; gap: 24px; justify-content: flex-start; }
+      .atelier__rail-label { writing-mode: horizontal-tb; font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- s01 · hero -->
+  <header class="hero">
+    <nav class="hero__nav" aria-label="Primary">
+      <div class="hero__nav-links hero__nav-links--left">
+        <a href="shop.html">Act I</a>
+        <a href="brief.html">Act II</a>
+      </div>
+      <a class="hero__nav-logo" href="index.html"><span class="wa-w">Wood</span><span class="wa-a">Accent</span></a>
+      <div class="hero__nav-links hero__nav-links--right">
+        <a href="journal.html">Journal</a>
+        <a href="shop.html" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4"/></svg>
+        </a>
+      </div>
+    </nav>
+
+    <a class="hero__act hero__act--i" href="shop.html">
+      <div class="hero__kicker">
+        <span class="eyebrow eyebrow--tan">Act I</span>
+        <span class="hero__title">The Collection</span>
+      </div>
+      <img class="hero__img" src="assets/img/hero-chair.svg" alt="Òkè lounge chair in solid Irókò">
+      <span class="btn btn--rust">Shop the pieces that arrive
+        <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+      </span>
+    </a>
+    <div class="hero__divider" role="presentation"></div>
+    <a class="hero__act hero__act--ii" href="brief.html">
+      <div class="hero__kicker">
+        <span class="eyebrow">Act II</span>
+        <span class="hero__title">The Commission</span>
+      </div>
+      <img class="hero__img" src="assets/img/hero-commission.svg" alt="Commissioned interior with walnut console">
+      <span class="btn btn--ink">Spaces we build with you
+        <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+      </span>
+    </a>
+  </header>
+
+  <!-- s02 · maker's note -->
+  <section class="makers-note">
+    <hr class="rule">
+    <span class="eyebrow">Maker's Note</span>
+    <div class="makers-note__cols">
+      <div class="makers-note__col">
+        <h3>MATERIAL</h3>
+        <p>We source our hardwoods with the reverence they deserve. Every grain tells a story of the Lagos rain and the Nigerian sun. We use only FSC-certified timber, ensuring the forest continues to breathe as we build.</p>
+      </div>
+      <div class="makers-note__col">
+        <h3>METHOD</h3>
+        <p>Joinery is where the soul of the maker enters the wood. No hidden fasteners, no shortcuts. We employ traditional West African woodworking techniques refined for the modern architectural home.</p>
+      </div>
+      <div class="makers-note__col">
+        <h3>FINISH</h3>
+        <p>A surface should feel as good as it looks. We finish our pieces with hand-rubbed natural oils and waxes that allow the wood to age gracefully, gaining character and permanence with every generation.</p>
+      </div>
+    </div>
+    <div class="makers-note__quote">
+      <div class="makers-note__seal">W</div>
+      <blockquote>&ldquo;We start with the tree. We end with the room. Everything between is signed by the maker.&rdquo;</blockquote>
+    </div>
+    <hr class="rule">
+  </section>
+
+  <!-- s03 · featured pieces -->
+  <section class="featured">
+    <span class="eyebrow">01 &ndash; The Collection</span>
+    <div class="featured__hero-row">
+      <a class="featured__primary" href="transformation.html">
+        <img class="featured__primary-img" src="assets/img/hero-chair.svg" alt="Òkè lounge chair">
+        <div class="featured__meta">
+          <div>
+            <div class="featured__name">Òkè Lounge Chair</div>
+            <div class="featured__spec">Solid Irókò &ndash; Hand Polished</div>
+          </div>
+          <div>
+            <div class="featured__price">&#8358;1,240,000</div>
+            <div class="featured__add">Add to collection</div>
+          </div>
+        </div>
+      </a>
+      <a class="featured__secondary" href="shop.html">
+        <img class="featured__secondary-img" src="assets/img/console.svg" alt="Ààfin console in black walnut">
+        <div>
+          <div class="featured__name">Ààfin Console</div>
+          <div class="featured__spec">Black Walnut &ndash; Brass Inlay</div>
+          <div style="font-size:16px; margin-top:8px;">&#8358;840,000</div>
+        </div>
+      </a>
+    </div>
+    <div class="featured__tertiary-row">
+      <a class="featured__tertiary" href="shop.html">
+        <div class="featured__tertiary-copy">
+          <h3>Ìbí Coffee Table</h3>
+          <p>A study in nesting forms. Three circular surfaces carved from a single trunk, connected by bronze architecture.</p>
+          <span class="btn btn--outline">View details
+            <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+          </span>
+        </div>
+        <img class="featured__tertiary-img" src="assets/img/coffee-table.svg" alt="Ìbí coffee table nesting forms">
+      </a>
+    </div>
+  </section>
+
+  <!-- s04 · shop the look -->
+  <section class="shop-look">
+    <img class="shop-look__bg" src="assets/img/shop-the-look.svg" alt="">
+    <span class="shop-look__kicker eyebrow eyebrow--cream">02 &ndash; Shop the Look</span>
+    <h2 class="shop-look__title">The room, complete.</h2>
+
+    <div class="hotspot" style="left: 20.8%; top: 50%;">
+      <button class="hotspot__dot" aria-label="Òkè Lounge Chair, 1.2 million naira">+</button>
+      <div class="hotspot__tag"><span class="name">Òkè Lounge Chair</span><span class="price">&#8358;1.2M</span></div>
+    </div>
+    <div class="hotspot" style="left: 58.4%; top: 85.3%;">
+      <button class="hotspot__dot" aria-label="Ìbí Coffee Table, 550 thousand naira">+</button>
+      <div class="hotspot__tag" style="top: -78px;"><span class="name">Ìbí Coffee Table</span><span class="price">&#8358;550k</span></div>
+    </div>
+    <div class="hotspot" style="left: 65.6%; top: 48.3%;">
+      <button class="hotspot__dot" aria-label="Palm Sconce, 120 thousand naira">+</button>
+      <div class="hotspot__tag"><span class="name">Palm Sconce</span><span class="price">&#8358;120k</span></div>
+    </div>
+  </section>
+
+  <!-- s05 · atelier -->
+  <section class="atelier">
+    <div class="atelier__panel--open">
+      <img class="bg" src="assets/img/panel-craftsmanship.svg" alt="">
+      <div>
+        <div class="atelier__num">01</div>
+        <h2 class="atelier__title">Craftsmanship</h2>
+        <p class="atelier__copy">Our artisans spend decades mastering the hand-planing of Irókò and Walnut. Each joint is a testament to Nigerian craft heritage.</p>
+      </div>
+      <div class="atelier__footer">
+        <a class="btn btn--rust" href="process.html">Explore our process
+          <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+        </a>
+        <span style="width:8px;height:8px;border-radius:4px;background:var(--rust);"></span>
+      </div>
+    </div>
+    <div class="atelier__rail">
+      <span class="atelier__rail-num">02</span>
+      <span class="atelier__rail-label">Machinery</span>
+    </div>
+    <div class="atelier__rail">
+      <span class="atelier__rail-num">03</span>
+      <span class="atelier__rail-label">Materials</span>
+    </div>
+  </section>
+
+  <!-- s06 · final CTA -->
+  <section class="final-cta">
+    <div class="final-cta__head">
+      <span class="eyebrow">The Full Atelier</span>
+      <h2 class="final-cta__title">Every door is open.</h2>
+    </div>
+
+    <div class="preview-gallery">
+      <div class="preview-gallery__row">
+        <a class="preview-card" href="shop.html">
+          <img class="bg" src="assets/img/card-shop-archive.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">ACT I &middot; The Collection</span>
+            <div><div class="preview-card__title">The Archive</div><div class="preview-card__tag">Own the room.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+        <a class="preview-card" href="transformation.html">
+          <img class="bg" src="assets/img/hero-chair.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">ACT I &middot; The Collection</span>
+            <div><div class="preview-card__title">Oak Lounge Chair</div><div class="preview-card__tag">The piece that defines the room.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+        <a class="preview-card" href="cart.html">
+          <img class="bg" src="assets/img/card-cart-configure.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">ACT I &middot; The Collection</span>
+            <div><div class="preview-card__title">Your Commission</div><div class="preview-card__tag">Handmade for you, specifically.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="preview-gallery__row">
+        <a class="preview-card" href="brief.html">
+          <img class="bg" src="assets/img/hero-commission.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">ACT II &middot; The Commission</span>
+            <div><div class="preview-card__title">Brief a Project</div><div class="preview-card__tag">Commission an entire space.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+        <a class="preview-card" href="portfolio.html">
+          <img class="bg" src="assets/img/panel-craftsmanship.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">ACT II &middot; The Commission</span>
+            <div><div class="preview-card__title">Spaces Transformed</div><div class="preview-card__tag">See what's possible.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+        <a class="preview-card" href="process.html">
+          <img class="bg" src="assets/img/card-process.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">ACT II &middot; The Commission</span>
+            <div><div class="preview-card__title">The Method</div><div class="preview-card__tag">From empty room to defining space.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="preview-gallery__row">
+        <a class="preview-card" href="makers.html">
+          <img class="bg" src="assets/img/card-makers.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">The Atelier</span>
+            <div><div class="preview-card__title">The Makers</div><div class="preview-card__tag">Every hand signs their work.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+        <a class="preview-card" href="journal.html">
+          <img class="bg" src="assets/img/card-journal.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">The Atelier</span>
+            <div><div class="preview-card__title">The Journal</div><div class="preview-card__tag">Stories from the atelier.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+        <a class="preview-card" href="contact.html">
+          <img class="bg" src="assets/img/coffee-table.svg" alt="">
+          <div class="preview-card__overlay">
+            <span class="eyebrow">The Atelier</span>
+            <div><div class="preview-card__title">Begin a Conversation</div><div class="preview-card__tag">Your space is waiting.</div></div>
+          </div>
+          <svg class="preview-card__arrow" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 9h16M10 2l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="final-cta__head">
+      <span class="eyebrow">Your Next Step</span>
+      <h2 class="final-cta__title">Which door do you walk through?</h2>
+    </div>
+    <div class="pathways">
+      <a class="pathway" href="shop.html">
+        <img class="bg" src="assets/img/hero-chair.svg" alt="">
+        <span class="pathway__title">Act I: Shop Furniture</span>
+        <span class="btn btn--rust">Explore the Collection
+          <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+        </span>
+      </a>
+      <a class="pathway" href="brief.html">
+        <img class="bg" src="assets/img/hero-commission.svg" alt="">
+        <span class="pathway__title">Act II: Commission A Space</span>
+        <span class="btn btn--ink">Begin Your Project
+          <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+        </span>
+      </a>
+    </div>
+
+    <footer class="site-footer" style="width: 100%;">
+      <div class="site-footer__top">
+        <a class="site-footer__logo" href="index.html">Wood<span>Accent</span></a>
+        <div class="site-footer__social">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="journal.html">Journal</a>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <div>
+          <div class="site-footer__hq-label">Headquarters</div>
+          <div class="site-footer__hq">Victoria Island, Lagos, Nigeria</div>
+        </div>
+        <div class="site-footer__legal">&copy; 2026 WoodAccent Atelier. All materials signed by the maker.</div>
+      </div>
+    </footer>
+  </section>
+
+</body>
+</html>

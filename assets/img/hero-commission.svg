@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a8845c"/>
+      <stop offset="0.55" stop-color="#8a6a4a"/>
+      <stop offset="1" stop-color="#6b5238"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <g>
+    <path d="M -20 -6 Q 72 -18 164 -5 Q 238 -18 311 -8 Q 397 -6 482 -11 Q 591 1 700 -0 Q 752 -12 804 -12 Q 900 -12 995 -11" fill="none" stroke="#6b5238" stroke-opacity="0.10" stroke-width="2.5"/>
+    <path d="M -20 78 Q 35 87 89 79 Q 180 69 270 72 Q 360 76 450 73 Q 556 81 662 81 Q 712 86 763 73 Q 864 77 965 76" fill="none" stroke="#6b5238" stroke-opacity="0.11" stroke-width="2.5"/>
+    <path d="M -20 138 Q 59 134 138 134 Q 194 130 249 135 Q 315 135 380 141 Q 444 138 508 134 Q 575 130 643 135 Q 689 142 735 139 Q 792 138 849 143" fill="none" stroke="#6b5238" stroke-opacity="0.06" stroke-width="2.3"/>
+    <path d="M -20 213 Q 79 210 178 213 Q 268 228 358 211 Q 457 220 556 215 Q 627 208 699 208 Q 752 199 806 216 Q 867 202 929 208" fill="none" stroke="#6b5238" stroke-opacity="0.14" stroke-width="2.4"/>
+    <path d="M -20 289 Q 41 284 101 289 Q 157 288 212 286 Q 319 300 427 290 Q 488 300 549 287 Q 617 278 685 288 Q 761 289 837 286" fill="none" stroke="#6b5238" stroke-opacity="0.11" stroke-width="1.0"/>
+    <path d="M -20 352 Q 51 345 122 347 Q 187 348 251 353 Q 331 356 410 354 Q 502 358 593 351 Q 660 360 726 348 Q 818 355 910 347" fill="none" stroke="#6b5238" stroke-opacity="0.14" stroke-width="2.4"/>
+    <path d="M -20 431 Q 78 416 176 431 Q 253 445 331 435 Q 430 435 529 436 Q 618 439 707 428 Q 754 416 801 429 Q 853 445 905 432" fill="none" stroke="#6b5238" stroke-opacity="0.12" stroke-width="2.0"/>
+    <path d="M -20 504 Q 25 513 70 507 Q 148 505 226 506 Q 275 511 324 501 Q 374 496 424 506 Q 482 511 541 509 Q 618 500 695 503 Q 784 512 874 505" fill="none" stroke="#6b5238" stroke-opacity="0.12" stroke-width="1.1"/>
+    <path d="M -20 564 Q 73 560 167 565 Q 212 555 258 562 Q 347 569 436 566 Q 500 565 563 564 Q 639 556 714 569 Q 772 575 830 570" fill="none" stroke="#6b5238" stroke-opacity="0.05" stroke-width="1.7"/>
+    <path d="M -20 649 Q 54 638 128 646 Q 235 635 341 650 Q 396 650 450 655 Q 503 665 557 649 Q 660 660 762 646 Q 866 649 969 644" fill="none" stroke="#6b5238" stroke-opacity="0.05" stroke-width="1.8"/>
+    <path d="M -20 713 Q 34 710 88 711 Q 188 701 288 716 Q 387 704 487 718 Q 578 723 669 711 Q 738 711 808 719 Q 891 710 974 712" fill="none" stroke="#6b5238" stroke-opacity="0.08" stroke-width="1.1"/>
+    <path d="M -20 778 Q 44 798 107 775 Q 169 778 232 774 Q 301 798 370 782 Q 468 784 566 783 Q 672 780 778 780 Q 826 788 874 777" fill="none" stroke="#6b5238" stroke-opacity="0.13" stroke-width="2.0"/>
+    <path d="M -20 853 Q 85 848 190 853 Q 258 850 325 856 Q 434 850 542 855 Q 607 854 671 852 Q 727 848 783 849 Q 887 853 991 850" fill="none" stroke="#6b5238" stroke-opacity="0.15" stroke-width="2.6"/>
+    <path d="M -20 928 Q 38 920 95 926 Q 146 923 197 925 Q 279 934 361 931 Q 433 926 505 928 Q 574 925 644 922 Q 707 936 770 923 Q 847 930 925 932" fill="none" stroke="#6b5238" stroke-opacity="0.07" stroke-width="1.4"/>
+    <ellipse cx="279" cy="440" rx="10" ry="6" fill="none" stroke="#6b5238" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="279" cy="440" rx="19" ry="12" fill="none" stroke="#6b5238" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="279" cy="440" rx="28" ry="17" fill="none" stroke="#6b5238" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="260" y="499" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="400" y="534" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="28" fill="#e7c49f">The Commission</text>
+  </g>
+</svg>

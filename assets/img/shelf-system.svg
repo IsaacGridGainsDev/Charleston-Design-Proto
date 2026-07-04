@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#645242"/><stop offset="0.55" stop-color="#44362a"/><stop offset="1" stop-color="#2c221a"/>
+  </linearGradient></defs>
+  <rect width="900" height="1100" fill="url(#g)"/>
+  <g>
+    <path d="M -20 4 Q 71 10 161 3 Q 268 3 374 4 Q 466 -5 557 9 Q 624 15 690 0 Q 743 7 796 1 Q 870 -4 944 7" fill="none" stroke="#2c221a" stroke-opacity="0.13" stroke-width="2.1"/>
+    <path d="M -20 71 Q 63 65 146 74 Q 226 77 307 75 Q 394 76 482 71 Q 546 65 610 74 Q 698 73 786 71 Q 861 77 936 70" fill="none" stroke="#2c221a" stroke-opacity="0.07" stroke-width="2.5"/>
+    <path d="M -20 162 Q 89 159 198 158 Q 275 162 352 161 Q 448 150 544 168 Q 603 152 662 166 Q 722 173 782 160 Q 854 161 926 159" fill="none" stroke="#2c221a" stroke-opacity="0.14" stroke-width="2.5"/>
+    <path d="M -20 244 Q 27 243 73 247 Q 154 253 234 250 Q 324 240 413 243 Q 462 242 512 247 Q 577 238 643 245 Q 746 247 849 240 Q 922 239 995 248" fill="none" stroke="#2c221a" stroke-opacity="0.10" stroke-width="1.7"/>
+    <path d="M -20 322 Q 54 333 128 320 Q 208 325 288 320 Q 374 320 460 326 Q 541 327 623 323 Q 713 319 803 318 Q 872 318 941 316" fill="none" stroke="#2c221a" stroke-opacity="0.13" stroke-width="1.8"/>
+    <path d="M -20 392 Q 29 377 79 395 Q 126 407 174 393 Q 282 407 390 391 Q 457 390 524 396 Q 599 401 674 398 Q 768 393 862 395 Q 939 396 1016 392" fill="none" stroke="#2c221a" stroke-opacity="0.15" stroke-width="2.6"/>
+    <path d="M -20 473 Q 32 475 83 478 Q 144 482 205 470 Q 296 465 388 474 Q 483 457 578 477 Q 658 464 737 470 Q 818 481 899 469 Q 948 464 998 474" fill="none" stroke="#2c221a" stroke-opacity="0.09" stroke-width="2.2"/>
+    <path d="M -20 555 Q 63 545 147 556 Q 234 548 321 557 Q 375 567 429 555 Q 534 559 639 551 Q 731 558 824 553 Q 914 561 1004 557" fill="none" stroke="#2c221a" stroke-opacity="0.07" stroke-width="2.5"/>
+    <path d="M -20 637 Q 85 651 190 635 Q 248 629 305 637 Q 360 629 414 640 Q 460 640 507 636 Q 598 630 689 637 Q 748 623 807 641 Q 875 631 944 642" fill="none" stroke="#2c221a" stroke-opacity="0.09" stroke-width="1.9"/>
+    <path d="M -20 700 Q 82 709 184 704 Q 288 692 393 695 Q 446 704 500 701 Q 569 706 638 697 Q 722 698 807 696 Q 902 691 997 704" fill="none" stroke="#2c221a" stroke-opacity="0.13" stroke-width="1.7"/>
+    <path d="M -20 785 Q 34 789 88 783 Q 170 782 251 782 Q 307 790 362 784 Q 417 792 472 781 Q 532 778 592 785 Q 688 775 783 790 Q 874 791 965 784" fill="none" stroke="#2c221a" stroke-opacity="0.10" stroke-width="1.2"/>
+    <path d="M -20 860 Q 44 878 107 864 Q 212 843 317 859 Q 416 851 515 856 Q 561 861 608 860 Q 667 848 725 861 Q 782 873 838 864 Q 910 842 982 860" fill="none" stroke="#2c221a" stroke-opacity="0.08" stroke-width="1.2"/>
+    <path d="M -20 947 Q 43 938 105 950 Q 210 942 314 948 Q 374 946 433 948 Q 498 951 563 948 Q 611 934 658 946 Q 713 949 768 948 Q 853 960 939 948" fill="none" stroke="#2c221a" stroke-opacity="0.13" stroke-width="1.2"/>
+    <path d="M -20 1029 Q 63 1045 147 1029 Q 220 1012 293 1029 Q 385 1043 476 1034 Q 555 1051 633 1027 Q 680 1025 726 1029 Q 821 1016 916 1023 Q 1008 1014 1100 1033" fill="none" stroke="#2c221a" stroke-opacity="0.11" stroke-width="1.2"/>
+    <ellipse cx="461" cy="730" rx="10" ry="6" fill="none" stroke="#2c221a" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="461" cy="730" rx="19" ry="12" fill="none" stroke="#2c221a" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="461" cy="730" rx="28" ry="17" fill="none" stroke="#2c221a" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="310" y="549" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="450" y="584" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="31" fill="#e7c49f">Arco Shelf System</text>
+  </g>
+</svg>

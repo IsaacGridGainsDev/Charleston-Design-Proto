@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b7054"/>
+      <stop offset="0.55" stop-color="#6b543c"/>
+      <stop offset="1" stop-color="#4d3e2c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="700" fill="url(#g)"/>
+  <g>
+    <path d="M -20 -0 Q 29 -9 79 5 Q 141 10 203 -3 Q 254 -1 305 4 Q 400 -18 496 2 Q 581 -1 666 2 Q 745 -12 824 2 Q 878 -8 931 4 Q 1013 0 1095 2" fill="none" stroke="#4d3e2c" stroke-opacity="0.10" stroke-width="1.6"/>
+    <path d="M -20 51 Q 48 45 116 57 Q 220 53 324 47 Q 424 48 525 55 Q 612 52 700 54 Q 762 55 824 52 Q 919 55 1013 48 Q 1084 49 1156 46" fill="none" stroke="#4d3e2c" stroke-opacity="0.15" stroke-width="2.1"/>
+    <path d="M -20 100 Q 82 85 184 98 Q 274 101 364 100 Q 425 90 487 102 Q 554 115 622 105 Q 730 92 838 100 Q 889 95 941 95 Q 1019 115 1096 103" fill="none" stroke="#4d3e2c" stroke-opacity="0.09" stroke-width="1.4"/>
+    <path d="M -20 159 Q 80 164 180 153 Q 287 161 393 157 Q 466 160 539 159 Q 640 164 742 157 Q 787 163 833 160 Q 920 153 1008 154 Q 1111 157 1215 158" fill="none" stroke="#4d3e2c" stroke-opacity="0.16" stroke-width="1.3"/>
+    <path d="M -20 203 Q 61 206 143 199 Q 237 209 332 207 Q 428 209 524 205 Q 605 207 686 206 Q 772 205 857 199 Q 924 200 991 207 Q 1087 200 1183 209" fill="none" stroke="#4d3e2c" stroke-opacity="0.06" stroke-width="1.1"/>
+    <path d="M -20 247 Q 87 244 193 245 Q 294 247 395 248 Q 468 246 542 252 Q 605 247 668 246 Q 722 241 776 247 Q 873 246 970 241 Q 1076 241 1182 251" fill="none" stroke="#4d3e2c" stroke-opacity="0.05" stroke-width="2.0"/>
+    <path d="M -20 293 Q 52 299 125 292 Q 197 291 269 293 Q 332 303 396 289 Q 449 294 503 291 Q 595 283 687 295 Q 755 302 824 291 Q 897 289 970 293 Q 1034 297 1097 292" fill="none" stroke="#4d3e2c" stroke-opacity="0.13" stroke-width="1.5"/>
+    <path d="M -20 349 Q 72 354 163 348 Q 214 336 265 345 Q 322 338 378 351 Q 446 363 513 346 Q 574 338 635 345 Q 724 352 813 346 Q 911 355 1009 348 Q 1093 355 1178 348" fill="none" stroke="#4d3e2c" stroke-opacity="0.06" stroke-width="1.6"/>
+    <path d="M -20 409 Q 67 398 153 412 Q 254 406 355 407 Q 434 402 512 405 Q 565 414 619 409 Q 726 421 833 413 Q 940 418 1046 403" fill="none" stroke="#4d3e2c" stroke-opacity="0.06" stroke-width="2.6"/>
+    <path d="M -20 457 Q 65 455 151 457 Q 205 459 259 455 Q 312 471 365 458 Q 467 450 569 458 Q 632 470 695 454 Q 782 459 869 455 Q 920 457 970 458 Q 1068 447 1166 454" fill="none" stroke="#4d3e2c" stroke-opacity="0.08" stroke-width="2.3"/>
+    <path d="M -20 495 Q 27 479 74 497 Q 151 480 229 494 Q 335 491 441 495 Q 513 495 586 489 Q 688 498 790 493 Q 854 483 917 500 Q 1017 490 1117 496" fill="none" stroke="#4d3e2c" stroke-opacity="0.11" stroke-width="1.3"/>
+    <path d="M -20 541 Q 36 543 91 535 Q 138 527 184 543 Q 269 561 354 543 Q 433 521 512 546 Q 588 555 665 535 Q 764 540 864 537 Q 935 523 1006 542 Q 1066 549 1125 537" fill="none" stroke="#4d3e2c" stroke-opacity="0.13" stroke-width="2.0"/>
+    <path d="M -20 604 Q 44 613 108 603 Q 212 621 315 607 Q 399 592 483 609 Q 591 627 699 602 Q 797 613 895 608 Q 993 602 1090 603" fill="none" stroke="#4d3e2c" stroke-opacity="0.14" stroke-width="2.0"/>
+    <path d="M -20 651 Q 27 628 74 650 Q 125 667 177 646 Q 279 638 381 646 Q 475 659 569 650 Q 653 653 737 656 Q 815 653 893 650 Q 965 660 1036 646" fill="none" stroke="#4d3e2c" stroke-opacity="0.13" stroke-width="2.5"/>
+    <ellipse cx="657" cy="368" rx="10" ry="6" fill="none" stroke="#4d3e2c" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="657" cy="368" rx="19" ry="12" fill="none" stroke="#4d3e2c" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="657" cy="368" rx="28" ry="17" fill="none" stroke="#4d3e2c" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="360" y="349" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="500" y="384" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#e7c49f">Field Notes</text>
+  </g>
+</svg>

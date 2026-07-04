@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7f7050"/>
+      <stop offset="0.55" stop-color="#5f5238"/>
+      <stop offset="1" stop-color="#453c28"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g>
+    <path d="M -20 7 Q 25 20 70 4 Q 131 -6 193 2 Q 284 9 375 7 Q 436 1 497 13 Q 566 20 636 12 Q 689 17 742 1 Q 833 16 924 10 Q 1005 16 1086 3 Q 1166 1 1246 6" fill="none" stroke="#453c28" stroke-opacity="0.07" stroke-width="2.1"/>
+    <path d="M -20 59 Q 66 63 152 64 Q 249 61 347 57 Q 453 53 558 54 Q 625 68 691 64 Q 778 66 865 64 Q 961 56 1056 58 Q 1151 51 1245 54" fill="none" stroke="#453c28" stroke-opacity="0.12" stroke-width="2.3"/>
+    <path d="M -20 109 Q 83 95 186 105 Q 263 103 340 115 Q 450 107 560 113 Q 646 96 732 115 Q 788 93 845 109 Q 891 108 937 108 Q 1044 106 1151 113 Q 1247 113 1342 106" fill="none" stroke="#453c28" stroke-opacity="0.08" stroke-width="1.8"/>
+    <path d="M -20 169 Q 58 163 136 171 Q 245 158 355 167 Q 401 154 447 164 Q 519 182 592 172 Q 700 182 807 170 Q 890 151 973 168 Q 1035 174 1097 164 Q 1177 165 1257 169" fill="none" stroke="#453c28" stroke-opacity="0.09" stroke-width="1.2"/>
+    <path d="M -20 233 Q 64 216 148 234 Q 249 255 351 236 Q 399 250 447 235 Q 510 252 573 237 Q 676 222 779 234 Q 849 224 919 236 Q 1004 226 1089 234 Q 1194 236 1299 238" fill="none" stroke="#453c28" stroke-opacity="0.11" stroke-width="2.6"/>
+    <path d="M -20 276 Q 61 283 142 282 Q 227 276 313 278 Q 392 283 472 282 Q 518 271 564 281 Q 613 285 662 271 Q 749 285 836 273 Q 906 268 976 279 Q 1055 280 1134 274 Q 1217 290 1301 280" fill="none" stroke="#453c28" stroke-opacity="0.15" stroke-width="1.4"/>
+    <path d="M -20 343 Q 47 351 115 339 Q 196 351 278 348 Q 324 337 370 343 Q 476 334 582 347 Q 653 344 723 348 Q 773 339 822 339 Q 875 338 929 346 Q 1012 333 1095 347 Q 1173 333 1251 347" fill="none" stroke="#453c28" stroke-opacity="0.14" stroke-width="1.3"/>
+    <path d="M -20 409 Q 40 387 100 413 Q 198 391 297 412 Q 392 415 488 413 Q 597 401 706 413 Q 811 401 915 411 Q 1005 424 1094 410 Q 1157 398 1220 409" fill="none" stroke="#453c28" stroke-opacity="0.06" stroke-width="2.4"/>
+    <path d="M -20 465 Q 70 469 161 460 Q 256 471 352 463 Q 403 460 455 468 Q 530 472 605 461 Q 657 462 709 469 Q 765 456 820 468 Q 871 469 922 460 Q 983 468 1044 469 Q 1116 464 1187 459 Q 1254 459 1322 468" fill="none" stroke="#453c28" stroke-opacity="0.13" stroke-width="2.3"/>
+    <path d="M -20 515 Q 33 510 87 512 Q 150 524 213 511 Q 279 506 346 519 Q 432 514 519 513 Q 623 532 728 514 Q 810 529 892 512 Q 954 499 1016 515 Q 1111 501 1206 514 Q 1315 514 1424 514" fill="none" stroke="#453c28" stroke-opacity="0.14" stroke-width="2.4"/>
+    <path d="M -20 569 Q 66 573 153 574 Q 241 566 329 569 Q 392 568 456 569 Q 560 576 665 574 Q 741 577 817 565 Q 922 571 1026 573 Q 1098 577 1170 563 Q 1270 574 1370 567" fill="none" stroke="#453c28" stroke-opacity="0.14" stroke-width="1.3"/>
+    <path d="M -20 634 Q 52 624 123 637 Q 216 621 308 639 Q 368 630 427 633 Q 510 646 592 639 Q 678 629 764 629 Q 814 634 863 635 Q 938 648 1012 633 Q 1079 631 1147 630 Q 1253 636 1359 634" fill="none" stroke="#453c28" stroke-opacity="0.10" stroke-width="1.4"/>
+    <path d="M -20 682 Q 54 697 128 683 Q 186 668 245 678 Q 312 691 380 687 Q 440 691 501 681 Q 581 683 660 677 Q 710 687 759 684 Q 829 695 899 686 Q 963 668 1028 683 Q 1115 673 1203 677 Q 1280 667 1356 685" fill="none" stroke="#453c28" stroke-opacity="0.12" stroke-width="1.4"/>
+    <path d="M -20 742 Q 37 735 94 746 Q 169 746 243 740 Q 341 744 438 744 Q 509 743 579 738 Q 687 745 796 742 Q 882 733 969 740 Q 1029 749 1089 736 Q 1163 750 1236 745" fill="none" stroke="#453c28" stroke-opacity="0.13" stroke-width="1.5"/>
+    <ellipse cx="407" cy="498" rx="10" ry="6" fill="none" stroke="#453c28" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="407" cy="498" rx="19" ry="12" fill="none" stroke="#453c28" stroke-opacity="0.14" stroke-width="1.6"/>
+    <ellipse cx="407" cy="498" rx="28" ry="17" fill="none" stroke="#453c28" stroke-opacity="0.14" stroke-width="1.6"/>
+  </g>
+  <g opacity="0.55">
+    <rect x="460" y="399" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
+    <text x="600" y="434" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="28" fill="#e7c49f">The Garden</text>
+  </g>
+</svg>

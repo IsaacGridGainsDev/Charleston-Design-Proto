@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Method — WoodAccent Atelier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,400;1,200;1,400&family=Space+Mono&family=Hanken+Grotesk:wght@300;400;500&family=Gabarito:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body { font-family: 'Gabarito', var(--font-body); }
+
+    .process { padding: 120px 80px; display: flex; flex-direction: column; gap: 80px; }
+    .process__head { display: flex; flex-direction: column; gap: 16px; }
+    .process__head .kicker { font-family: var(--font-mono); font-size: 14px; text-transform: uppercase; color: var(--rust); }
+    .process__head h1 { font-family: var(--font-serif); font-weight: 200; font-size: clamp(44px, 5.5vw, 80px); }
+
+    .before-after { display: flex; gap: 80px; }
+    .before-after__col { flex: 1; display: flex; flex-direction: column; gap: 16px; }
+    .before-after__label { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--gray); }
+    .before-after__label--after { color: var(--rust); }
+    .before-after__col img { height: 540px; width: 100%; object-fit: cover; }
+
+    .phase { display: flex; gap: 80px; align-items: center; }
+    .phase--flip { flex-direction: row-reverse; }
+    .phase__copy { flex: 1; display: flex; flex-direction: column; gap: 24px; }
+    .phase__num { font-family: var(--font-mono); font-size: 24px; color: var(--rust); }
+    .phase__title { font-family: var(--font-serif); font-style: italic; font-size: 48px; }
+    .phase__desc { font-size: 18px; color: var(--gray); }
+    .phase__img { width: 720px; max-width: 56%; height: 540px; object-fit: cover; flex-shrink: 0; }
+
+    .outcome-quote { background: #fff; border: 1px solid var(--tan); padding: 64px 80px; display: flex; flex-direction: column; gap: 16px; }
+    .outcome-quote .kicker { font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; color: var(--rust); }
+    .outcome-quote p { font-family: var(--font-serif); font-style: italic; font-size: clamp(28px, 2.8vw, 40px); line-height: 1.3; }
+
+    .timeline-card { background: #fff; border: 1px solid var(--tan); padding: 80px; display: flex; flex-direction: column; gap: 40px; align-items: center; }
+    .timeline-card .kicker { font-family: var(--font-mono); font-size: 14px; text-transform: uppercase; color: var(--rust); }
+    .timeline-card p { font-family: var(--font-serif); font-weight: 200; font-size: clamp(28px, 2.8vw, 40px); text-align: center; max-width: 800px; }
+
+    @media (max-width: 1024px) {
+      .process { padding: 64px 40px; gap: 64px; }
+      .before-after { flex-direction: column; gap: 40px; }
+      .before-after__col img { height: 380px; }
+      .phase, .phase--flip { flex-direction: column; align-items: flex-start; gap: 32px; }
+      .phase__img { width: 100%; max-width: 100%; height: 380px; }
+      .outcome-quote, .timeline-card { padding: 48px 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Primary">
+    <div class="site-nav__links">
+      <a href="shop.html" style="color: var(--gray);">Act I</a>
+      <a href="brief.html" aria-current="page">Act II</a>
+    </div>
+    <a class="site-nav__logo" href="index.html">Wood<span>Accent</span></a>
+    <div class="site-nav__links" style="align-items: center;">
+      <a href="journal.html">Journal</a>
+      <a href="#" aria-label="Search">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="9" r="6"/><path d="m14 14 4 4"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <main class="process">
+    <div class="process__head">
+      <span class="kicker">Commissions</span>
+      <h1>From empty room to defining space.</h1>
+    </div>
+
+    <div class="before-after">
+      <div class="before-after__col">
+        <span class="before-after__label">Before: A room</span>
+        <img src="assets/img/before-room.svg" alt="Empty room before transformation">
+      </div>
+      <div class="before-after__col">
+        <span class="before-after__label before-after__label--after">After: Your space</span>
+        <img src="assets/img/after-room.svg" alt="Furnished room after transformation">
+      </div>
+    </div>
+
+    <article class="phase">
+      <div class="phase__copy">
+        <span class="phase__num">01</span>
+        <h2 class="phase__title">The Concept</h2>
+        <p class="phase__desc">We design the space with structural integrity and poetic intent. Detailed renders and material palettes are shared for resonance.</p>
+      </div>
+      <img class="phase__img" src="assets/img/room-study.svg" alt="Concept renders and material palette">
+    </article>
+
+    <article class="phase phase--flip">
+      <div class="phase__copy">
+        <span class="phase__num">02</span>
+        <h2 class="phase__title">The Brief</h2>
+        <p class="phase__desc">Every commission begins with a conversation. You share the vision for your space, and we listen for the underlying rhythm of your life.</p>
+      </div>
+      <img class="phase__img" src="assets/img/room-foyer.svg" alt="Brief conversation sketches">
+    </article>
+
+    <article class="phase">
+      <div class="phase__copy">
+        <span class="phase__num">03</span>
+        <h2 class="phase__title">The Craft</h2>
+        <p class="phase__desc">Each piece is made to order in our Lagos atelier. We use traditional joinery and hand-carved details that reveal the wood's inner character.</p>
+      </div>
+      <img class="phase__img" src="assets/img/workshop.svg" alt="Craftsman at work in the Lagos atelier">
+    </article>
+
+    <article class="phase">
+      <div class="phase__copy">
+        <span class="phase__num">04</span>
+        <h2 class="phase__title">The Install</h2>
+        <p class="phase__desc">We bring the vision to life. Our team ensures every joint is seated and every surface is finished to our exact signature standards.</p>
+      </div>
+      <img class="phase__img" src="assets/img/room-bedroom.svg" alt="Finished installation in a bedroom">
+    </article>
+
+    <div class="outcome-quote">
+      <span class="kicker">The outcome</span>
+      <p>Most clients say the same thing when they walk in for the first time: this is exactly who I am.</p>
+    </div>
+
+    <div class="timeline-card">
+      <span class="kicker">Timeline</span>
+      <p>A typical commission spans 12 to 16 weeks from initial brief to final installation.</p>
+      <a class="btn btn--rust" href="brief.html">Start your transformation
+        <svg class="arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"/></svg>
+      </a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <a class="site-footer__logo" href="index.html">Wood<span>Accent</span></a>
+      <div class="site-footer__social">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="journal.html">Journal</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <div>
+        <div class="site-footer__hq-label">Headquarters</div>
+        <div class="site-footer__hq">Victoria Island, Lagos, Nigeria</div>
+      </div>
+      <div class="site-footer__legal">&copy; 2026 WoodAccent Atelier. All materials signed by the maker.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
