@@ -1,33 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
       <stop offset="0" stop-color="#6c5238"/>
-      <stop offset="0.55" stop-color="#4c3a28"/>
-      <stop offset="1" stop-color="#34281a"/>
+      <stop offset="0.5" stop-color="#4c3a28"/>
+      <stop offset="1" stop-color="#2c2118"/>
     </linearGradient>
+    <radialGradient id="v" cx="0.5" cy="0.42" r="0.9">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.35"/>
+    </radialGradient>
   </defs>
   <rect width="1000" height="700" fill="url(#g)"/>
   <g>
-    <path d="M -20 -3 Q 31 -2 82 2 Q 183 -8 285 0 Q 382 -3 480 1 Q 537 -6 594 -3 Q 686 -4 778 -5 Q 880 -5 981 -4 Q 1041 -3 1100 -0" fill="none" stroke="#34281a" stroke-opacity="0.09" stroke-width="2.1"/>
-    <path d="M -20 50 Q 88 47 195 50 Q 302 46 410 45 Q 468 46 526 54 Q 605 44 684 47 Q 762 46 840 48 Q 944 49 1048 47" fill="none" stroke="#34281a" stroke-opacity="0.12" stroke-width="1.2"/>
-    <path d="M -20 100 Q 31 102 82 98 Q 175 105 268 105 Q 353 88 437 97 Q 528 112 619 95 Q 691 92 763 100 Q 865 103 966 103 Q 1061 92 1156 102" fill="none" stroke="#34281a" stroke-opacity="0.09" stroke-width="1.8"/>
-    <path d="M -20 151 Q 36 164 92 147 Q 157 164 223 156 Q 291 168 360 145 Q 467 139 574 145 Q 669 138 764 154 Q 809 136 854 149 Q 905 149 955 149 Q 1048 150 1141 156" fill="none" stroke="#34281a" stroke-opacity="0.14" stroke-width="1.3"/>
-    <path d="M -20 208 Q 62 210 143 204 Q 209 195 275 205 Q 360 200 445 212 Q 527 224 610 203 Q 710 209 810 210 Q 870 218 931 207 Q 1023 212 1114 204" fill="none" stroke="#34281a" stroke-opacity="0.08" stroke-width="2.2"/>
-    <path d="M -20 240 Q 60 248 141 238 Q 217 239 293 243 Q 343 241 392 237 Q 476 231 559 237 Q 619 255 679 239 Q 781 249 884 238 Q 965 222 1046 246" fill="none" stroke="#34281a" stroke-opacity="0.12" stroke-width="1.2"/>
-    <path d="M -20 300 Q 69 294 157 305 Q 243 287 328 304 Q 431 294 533 303 Q 634 313 735 295 Q 834 292 934 304 Q 1023 299 1113 305" fill="none" stroke="#34281a" stroke-opacity="0.14" stroke-width="2.6"/>
-    <path d="M -20 359 Q 73 365 166 358 Q 243 359 320 356 Q 382 371 444 363 Q 535 366 625 359 Q 707 365 789 353 Q 863 376 937 356 Q 1013 344 1088 356" fill="none" stroke="#34281a" stroke-opacity="0.14" stroke-width="1.1"/>
-    <path d="M -20 406 Q 81 395 183 411 Q 252 404 321 411 Q 402 414 482 401 Q 527 396 573 401 Q 671 395 770 411 Q 859 392 948 409 Q 1014 407 1079 401" fill="none" stroke="#34281a" stroke-opacity="0.14" stroke-width="2.3"/>
-    <path d="M -20 452 Q 47 437 114 450 Q 207 454 300 447 Q 361 451 422 446 Q 470 450 517 447 Q 620 437 723 455 Q 820 444 916 452 Q 1026 456 1135 450" fill="none" stroke="#34281a" stroke-opacity="0.16" stroke-width="1.4"/>
-    <path d="M -20 509 Q 52 505 125 511 Q 227 514 330 505 Q 439 515 548 509 Q 648 500 749 510 Q 845 516 941 511 Q 990 509 1039 506" fill="none" stroke="#34281a" stroke-opacity="0.12" stroke-width="1.6"/>
-    <path d="M -20 549 Q 63 562 146 547 Q 209 539 272 544 Q 372 563 473 545 Q 541 563 609 553 Q 718 566 827 547 Q 876 541 925 549 Q 971 541 1017 549 Q 1107 538 1196 545" fill="none" stroke="#34281a" stroke-opacity="0.09" stroke-width="1.1"/>
-    <path d="M -20 592 Q 77 599 174 587 Q 271 598 369 594 Q 433 598 498 587 Q 546 600 594 589 Q 698 597 803 587 Q 854 595 905 588 Q 993 595 1081 589" fill="none" stroke="#34281a" stroke-opacity="0.10" stroke-width="1.3"/>
-    <path d="M -20 657 Q 70 662 160 652 Q 262 668 365 658 Q 448 657 532 660 Q 611 649 691 658 Q 750 639 809 658 Q 910 666 1012 654 Q 1090 661 1168 658" fill="none" stroke="#34281a" stroke-opacity="0.10" stroke-width="1.8"/>
-    <ellipse cx="613" cy="510" rx="10" ry="6" fill="none" stroke="#34281a" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="613" cy="510" rx="19" ry="12" fill="none" stroke="#34281a" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="613" cy="510" rx="28" ry="17" fill="none" stroke="#34281a" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 10 Q 80 17 180 12 Q 247 18 314 14 Q 422 23 529 10 Q 622 14 715 15 Q 812 23 909 10 Q 975 -5 1041 13" fill="none" stroke="#2c2118" stroke-opacity="0.14" stroke-width="2.1"/>
+    <path d="M -20 42 Q 56 33 132 46 Q 200 43 267 45 Q 325 37 384 40 Q 449 47 514 43 Q 579 37 644 46 Q 739 49 834 37 Q 916 45 999 42 Q 1074 45 1149 40" fill="none" stroke="#2c2118" stroke-opacity="0.12" stroke-width="0.8"/>
+    <path d="M -20 97 Q 55 90 130 97 Q 186 97 241 93 Q 300 97 359 93 Q 455 92 551 96 Q 622 96 693 94 Q 799 90 906 96 Q 1015 91 1124 95" fill="none" stroke="#2c2118" stroke-opacity="0.13" stroke-width="1.3"/>
+    <path d="M -20 140 Q 43 132 107 139 Q 209 147 311 137 Q 375 140 439 142 Q 507 139 576 141 Q 682 144 788 138 Q 891 147 995 140 Q 1109 146 1224 139" fill="none" stroke="#2c2118" stroke-opacity="0.09" stroke-width="1.0"/>
+    <path d="M -20 164 Q 65 168 150 161 Q 247 161 345 168 Q 447 163 548 161 Q 632 167 716 161 Q 777 164 838 161 Q 941 169 1045 168" fill="none" stroke="#2c2118" stroke-opacity="0.11" stroke-width="1.9"/>
+    <path d="M -20 212 Q 87 218 193 212 Q 256 228 319 212 Q 413 202 508 208 Q 560 228 613 216 Q 693 215 773 207 Q 826 208 880 210 Q 974 202 1068 210" fill="none" stroke="#2c2118" stroke-opacity="0.14" stroke-width="1.5"/>
+    <path d="M -20 266 Q 49 261 118 264 Q 197 262 276 261 Q 329 257 382 268 Q 447 265 512 270 Q 569 260 626 270 Q 701 262 777 262 Q 828 267 879 270 Q 952 271 1025 265" fill="none" stroke="#2c2118" stroke-opacity="0.17" stroke-width="1.5"/>
+    <path d="M -20 303 Q 45 299 109 307 Q 169 311 228 299 Q 319 316 410 305 Q 473 310 536 307 Q 592 305 647 302 Q 748 319 848 300 Q 949 289 1049 300" fill="none" stroke="#2c2118" stroke-opacity="0.15" stroke-width="1.2"/>
+    <path d="M -20 359 Q 93 378 207 363 Q 288 368 370 363 Q 424 356 479 363 Q 564 340 650 360 Q 749 345 847 355 Q 937 371 1027 361" fill="none" stroke="#2c2118" stroke-opacity="0.17" stroke-width="1.4"/>
+    <path d="M -20 398 Q 98 385 216 401 Q 293 409 370 397 Q 439 386 508 395 Q 573 406 638 402 Q 744 396 849 400 Q 936 390 1022 395" fill="none" stroke="#2c2118" stroke-opacity="0.16" stroke-width="1.6"/>
+    <path d="M -20 430 Q 47 424 113 426 Q 225 435 337 427 Q 442 431 548 427 Q 655 430 763 425 Q 837 431 912 428 Q 967 432 1023 430" fill="none" stroke="#2c2118" stroke-opacity="0.17" stroke-width="1.4"/>
+    <path d="M -20 484 Q 34 491 88 487 Q 153 494 219 481 Q 337 485 455 489 Q 559 490 664 480 Q 766 481 868 485 Q 979 487 1090 484" fill="none" stroke="#2c2118" stroke-opacity="0.18" stroke-width="1.1"/>
+    <path d="M -20 519 Q 87 527 193 516 Q 259 526 326 518 Q 439 507 552 516 Q 615 530 678 516 Q 762 526 846 521 Q 898 509 949 516 Q 1027 523 1105 515" fill="none" stroke="#2c2118" stroke-opacity="0.09" stroke-width="1.1"/>
+    <path d="M -20 579 Q 37 580 94 581 Q 201 583 307 577 Q 359 593 410 581 Q 505 559 600 576 Q 656 563 712 580 Q 763 599 814 583 Q 871 589 929 577 Q 1028 566 1128 578" fill="none" stroke="#2c2118" stroke-opacity="0.15" stroke-width="1.4"/>
+    <path d="M -20 604 Q 41 595 102 606 Q 196 596 289 608 Q 347 600 404 605 Q 512 597 621 609 Q 673 603 724 601 Q 820 599 916 608 Q 993 613 1070 608" fill="none" stroke="#2c2118" stroke-opacity="0.09" stroke-width="1.0"/>
+    <path d="M -20 647 Q 97 645 214 648 Q 272 653 330 651 Q 443 648 556 644 Q 643 648 730 649 Q 791 649 851 645 Q 958 645 1066 643" fill="none" stroke="#2c2118" stroke-opacity="0.19" stroke-width="1.7"/>
   </g>
-  <g opacity="0.55">
-    <rect x="360" y="349" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
-    <text x="500" y="384" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#e7c49f">From the Bench</text>
+  <rect width="1000" height="700" fill="url(#v)"/>
+  <g opacity="0.85" transform="translate(318 133) scale(3.64)">
+    
+      <path d="M20 74 C26 50 40 34 62 28 C74 26 82 32 78 42 C74 52 58 58 46 54" fill="none" stroke="#e7c49f" stroke-width="1.2"/>
+      <path d="M46 54 C40 66 34 72 24 76" fill="none" stroke="#e7c49f" stroke-width="1.2"/>
+      <path d="M58 34 L64 40 M52 40 L60 46" stroke="#e7c49f" stroke-width="0.7" opacity="0.8"/>
+      <path d="M70 66 H84 M70 70 H80" stroke="#e7c49f" stroke-width="0.8" opacity="0.7"/>
+    
+  </g>
+  <g opacity="0.75">
+    <rect x="440" y="539" width="120" height="1" fill="#e7c49f" opacity="0.6"/>
+    <text x="500" y="574" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#e7c49f" letter-spacing="1">From the Bench</text>
   </g>
 </svg>

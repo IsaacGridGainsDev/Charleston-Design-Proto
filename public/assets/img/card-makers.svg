@@ -1,33 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="1040" viewBox="0 0 840 1040">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
       <stop offset="0" stop-color="#544028"/>
-      <stop offset="0.55" stop-color="#362a1e"/>
-      <stop offset="1" stop-color="#231a12"/>
+      <stop offset="0.5" stop-color="#362a1e"/>
+      <stop offset="1" stop-color="#1e1610"/>
     </linearGradient>
+    <radialGradient id="v" cx="0.5" cy="0.42" r="0.9">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.35"/>
+    </radialGradient>
   </defs>
   <rect width="840" height="1040" fill="url(#g)"/>
   <g>
-    <path d="M -20 1 Q 69 4 159 1 Q 207 4 256 0 Q 339 8 422 5 Q 523 -4 625 -1 Q 704 -6 782 7 Q 845 -2 908 -1" fill="none" stroke="#231a12" stroke-opacity="0.08" stroke-width="2.4"/>
-    <path d="M -20 75 Q 52 61 125 73 Q 226 85 327 80 Q 389 66 451 70 Q 531 71 611 75 Q 687 78 764 74 Q 861 66 958 80" fill="none" stroke="#231a12" stroke-opacity="0.11" stroke-width="1.1"/>
-    <path d="M -20 145 Q 52 147 123 143 Q 186 155 249 142 Q 340 155 431 146 Q 506 159 580 144 Q 682 130 784 144 Q 871 130 957 149" fill="none" stroke="#231a12" stroke-opacity="0.06" stroke-width="2.0"/>
-    <path d="M -20 216 Q 61 231 143 216 Q 232 225 321 214 Q 379 233 438 212 Q 543 202 647 212 Q 698 230 750 222 Q 822 224 894 214" fill="none" stroke="#231a12" stroke-opacity="0.15" stroke-width="2.1"/>
-    <path d="M -20 290 Q 70 284 160 294 Q 225 286 289 291 Q 354 291 420 286 Q 524 288 629 294 Q 683 295 738 296 Q 809 284 879 289" fill="none" stroke="#231a12" stroke-opacity="0.12" stroke-width="1.4"/>
-    <path d="M -20 372 Q 55 376 130 372 Q 220 366 309 376 Q 362 379 415 378 Q 521 373 627 370 Q 694 376 762 372 Q 867 366 973 372" fill="none" stroke="#231a12" stroke-opacity="0.15" stroke-width="2.0"/>
-    <path d="M -20 447 Q 34 443 88 451 Q 188 442 288 452 Q 335 448 382 452 Q 450 453 517 448 Q 565 444 614 446 Q 675 450 736 443 Q 832 443 928 441" fill="none" stroke="#231a12" stroke-opacity="0.11" stroke-width="1.2"/>
-    <path d="M -20 521 Q 64 519 147 515 Q 226 504 304 523 Q 358 524 411 519 Q 481 528 550 517 Q 606 540 662 519 Q 762 537 862 521" fill="none" stroke="#231a12" stroke-opacity="0.07" stroke-width="1.2"/>
-    <path d="M -20 602 Q 57 602 134 597 Q 210 596 285 602 Q 363 600 441 598 Q 512 597 584 597 Q 644 608 705 602 Q 808 594 911 607" fill="none" stroke="#231a12" stroke-opacity="0.10" stroke-width="2.3"/>
-    <path d="M -20 670 Q 40 680 100 666 Q 162 651 224 669 Q 303 662 382 675 Q 432 673 482 667 Q 566 681 650 673 Q 699 660 748 671 Q 857 652 966 671" fill="none" stroke="#231a12" stroke-opacity="0.13" stroke-width="2.3"/>
-    <path d="M -20 740 Q 55 758 130 734 Q 236 736 342 739 Q 393 728 444 743 Q 533 724 622 738 Q 676 726 730 736 Q 797 761 863 746" fill="none" stroke="#231a12" stroke-opacity="0.14" stroke-width="1.8"/>
-    <path d="M -20 817 Q 84 828 188 819 Q 246 822 304 821 Q 400 799 496 820 Q 564 803 632 823 Q 720 828 809 813 Q 908 836 1007 822" fill="none" stroke="#231a12" stroke-opacity="0.13" stroke-width="2.3"/>
-    <path d="M -20 897 Q 53 909 127 901 Q 228 890 330 903 Q 409 913 489 893 Q 597 908 705 894 Q 804 888 904 894" fill="none" stroke="#231a12" stroke-opacity="0.10" stroke-width="1.4"/>
-    <path d="M -20 966 Q 70 976 159 964 Q 255 980 351 968 Q 457 981 563 964 Q 614 973 665 970 Q 732 970 799 970 Q 895 942 992 965" fill="none" stroke="#231a12" stroke-opacity="0.05" stroke-width="1.2"/>
-    <ellipse cx="577" cy="469" rx="10" ry="6" fill="none" stroke="#231a12" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="577" cy="469" rx="19" ry="12" fill="none" stroke="#231a12" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="577" cy="469" rx="28" ry="17" fill="none" stroke="#231a12" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 -6 Q 83 -18 187 -4 Q 260 -21 334 -7 Q 436 -13 538 -3 Q 611 -15 684 -8 Q 794 -7 904 -2" fill="none" stroke="#1e1610" stroke-opacity="0.15" stroke-width="2.1"/>
+    <path d="M -20 55 Q 65 69 150 54 Q 221 37 292 58 Q 351 43 411 54 Q 501 71 591 54 Q 663 63 735 57 Q 819 60 903 51" fill="none" stroke="#1e1610" stroke-opacity="0.16" stroke-width="0.8"/>
+    <path d="M -20 125 Q 42 134 104 124 Q 207 110 311 126 Q 405 121 499 129 Q 576 108 653 122 Q 729 107 805 123 Q 913 113 1022 126" fill="none" stroke="#1e1610" stroke-opacity="0.16" stroke-width="1.1"/>
+    <path d="M -20 200 Q 39 197 98 201 Q 160 207 221 198 Q 292 205 362 201 Q 436 208 509 205 Q 583 208 657 198 Q 721 209 784 204 Q 862 194 940 202" fill="none" stroke="#1e1610" stroke-opacity="0.10" stroke-width="1.8"/>
+    <path d="M -20 262 Q 56 265 131 258 Q 243 258 354 262 Q 407 270 461 264 Q 557 255 652 264 Q 732 260 811 263 Q 894 257 977 264" fill="none" stroke="#1e1610" stroke-opacity="0.16" stroke-width="1.2"/>
+    <path d="M -20 329 Q 49 332 118 325 Q 226 316 334 331 Q 392 316 451 325 Q 514 319 578 327 Q 665 319 752 331 Q 822 314 893 329" fill="none" stroke="#1e1610" stroke-opacity="0.10" stroke-width="2.1"/>
+    <path d="M -20 386 Q 77 390 174 389 Q 271 382 368 382 Q 454 388 539 382 Q 607 383 675 391 Q 746 386 817 382 Q 879 381 941 384" fill="none" stroke="#1e1610" stroke-opacity="0.18" stroke-width="1.2"/>
+    <path d="M -20 461 Q 83 455 186 464 Q 283 456 379 459 Q 460 462 540 465 Q 597 465 653 458 Q 731 467 809 458 Q 886 465 963 464" fill="none" stroke="#1e1610" stroke-opacity="0.16" stroke-width="1.9"/>
+    <path d="M -20 511 Q 34 526 88 507 Q 167 514 246 514 Q 344 500 441 510 Q 517 495 592 513 Q 700 527 809 507 Q 923 498 1038 510" fill="none" stroke="#1e1610" stroke-opacity="0.09" stroke-width="1.2"/>
+    <path d="M -20 581 Q 77 590 175 581 Q 264 597 354 582 Q 428 581 501 583 Q 558 586 615 578 Q 689 587 763 579 Q 872 583 981 585" fill="none" stroke="#1e1610" stroke-opacity="0.09" stroke-width="1.7"/>
+    <path d="M -20 642 Q 90 656 199 638 Q 284 632 368 646 Q 422 631 475 643 Q 553 631 632 641 Q 738 640 844 645 Q 925 627 1006 642" fill="none" stroke="#1e1610" stroke-opacity="0.16" stroke-width="0.9"/>
+    <path d="M -20 713 Q 30 701 80 714 Q 173 707 267 713 Q 331 718 396 717 Q 471 700 547 710 Q 628 715 710 714 Q 793 717 876 715" fill="none" stroke="#1e1610" stroke-opacity="0.09" stroke-width="1.9"/>
+    <path d="M -20 773 Q 88 783 196 771 Q 283 778 369 769 Q 431 766 492 775 Q 593 765 693 774 Q 756 783 820 772 Q 902 779 984 775" fill="none" stroke="#1e1610" stroke-opacity="0.09" stroke-width="1.4"/>
+    <path d="M -20 855 Q 71 866 162 855 Q 259 873 355 852 Q 440 856 524 851 Q 640 868 755 855 Q 841 871 927 852" fill="none" stroke="#1e1610" stroke-opacity="0.15" stroke-width="1.8"/>
+    <path d="M -20 901 Q 72 910 164 901 Q 241 912 318 905 Q 421 896 525 906 Q 643 900 761 897 Q 839 906 918 904" fill="none" stroke="#1e1610" stroke-opacity="0.12" stroke-width="1.8"/>
+    <path d="M -20 984 Q 95 988 211 981 Q 305 976 398 982 Q 495 1000 592 985 Q 710 984 827 986 Q 899 971 972 982" fill="none" stroke="#1e1610" stroke-opacity="0.14" stroke-width="1.6"/>
   </g>
-  <g opacity="0.55">
-    <rect x="280" y="519" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
-    <text x="420" y="554" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="29" fill="#e7c49f">The Makers</text>
+  <rect width="840" height="1040" fill="url(#v)"/>
+  <g opacity="0.85" transform="translate(202 250) scale(4.37)">
+    
+      <circle cx="50" cy="34" r="13" fill="none" stroke="#e7c49f" stroke-width="1.6"/>
+      <path d="M28 84 C30 62 40 56 50 56 C60 56 70 62 72 84" fill="none" stroke="#e7c49f" stroke-width="1.6"/>
+      <path d="M42 78 L58 78" stroke="#e7c49f" stroke-width="1"/>
+      <path d="M64 70 C70 64 76 64 80 68" stroke="#e7c49f" stroke-width="1" fill="none"/>
+    
+  </g>
+  <g opacity="0.75">
+    <rect x="360" y="749" width="120" height="1" fill="#e7c49f" opacity="0.6"/>
+    <text x="420" y="788" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="25" fill="#e7c49f" letter-spacing="1">The Makers</text>
   </g>
 </svg>

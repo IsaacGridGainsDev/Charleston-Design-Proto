@@ -1,33 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
       <stop offset="0" stop-color="#7e6240"/>
-      <stop offset="0.55" stop-color="#5e462e"/>
-      <stop offset="1" stop-color="#42311f"/>
+      <stop offset="0.5" stop-color="#5e462e"/>
+      <stop offset="1" stop-color="#3a2b1c"/>
     </linearGradient>
+    <radialGradient id="v" cx="0.5" cy="0.42" r="0.9">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.35"/>
+    </radialGradient>
   </defs>
   <rect width="900" height="900" fill="url(#g)"/>
   <g>
-    <path d="M -20 -3 Q 56 -2 131 -5 Q 183 -3 235 -8 Q 291 -4 347 -5 Q 425 -2 502 -4 Q 556 -9 609 -2 Q 718 -6 826 -5 Q 891 0 957 -3" fill="none" stroke="#42311f" stroke-opacity="0.14" stroke-width="1.0"/>
-    <path d="M -20 57 Q 49 55 118 56 Q 226 56 333 58 Q 441 60 549 58 Q 648 54 746 51 Q 854 58 961 58" fill="none" stroke="#42311f" stroke-opacity="0.06" stroke-width="2.2"/>
-    <path d="M -20 126 Q 43 142 107 124 Q 170 141 233 123 Q 295 126 358 132 Q 410 115 463 130 Q 513 123 563 129 Q 654 137 745 121 Q 848 121 951 130" fill="none" stroke="#42311f" stroke-opacity="0.10" stroke-width="2.4"/>
-    <path d="M -20 192 Q 35 192 90 187 Q 145 201 201 193 Q 302 185 403 192 Q 479 184 554 190 Q 659 197 764 193 Q 848 200 933 198" fill="none" stroke="#42311f" stroke-opacity="0.12" stroke-width="1.1"/>
-    <path d="M -20 265 Q 41 258 101 265 Q 184 264 267 264 Q 321 269 375 265 Q 440 271 505 270 Q 610 274 715 259 Q 786 264 856 262 Q 949 272 1043 260" fill="none" stroke="#42311f" stroke-opacity="0.11" stroke-width="2.5"/>
-    <path d="M -20 329 Q 32 328 84 329 Q 180 320 276 327 Q 385 315 494 331 Q 545 337 596 328 Q 701 321 806 334 Q 866 316 926 324" fill="none" stroke="#42311f" stroke-opacity="0.06" stroke-width="1.6"/>
-    <path d="M -20 395 Q 72 383 163 395 Q 243 385 323 396 Q 397 391 471 399 Q 561 385 651 390 Q 700 389 748 397 Q 856 407 964 400" fill="none" stroke="#42311f" stroke-opacity="0.06" stroke-width="2.3"/>
-    <path d="M -20 455 Q 90 458 199 451 Q 258 444 318 457 Q 403 466 489 449 Q 534 470 580 452 Q 642 467 704 451 Q 801 468 897 456 Q 982 440 1066 457" fill="none" stroke="#42311f" stroke-opacity="0.12" stroke-width="2.2"/>
-    <path d="M -20 515 Q 39 517 99 510 Q 151 511 203 518 Q 283 512 364 520 Q 447 510 529 515 Q 630 512 731 514 Q 813 523 896 516 Q 952 516 1009 512" fill="none" stroke="#42311f" stroke-opacity="0.10" stroke-width="2.1"/>
-    <path d="M -20 569 Q 45 572 111 573 Q 186 573 262 566 Q 323 569 385 569 Q 444 578 504 569 Q 572 561 640 573 Q 744 583 847 566 Q 897 573 947 563" fill="none" stroke="#42311f" stroke-opacity="0.14" stroke-width="2.1"/>
-    <path d="M -20 640 Q 69 630 159 638 Q 255 645 351 641 Q 403 631 454 637 Q 502 644 549 640 Q 654 641 759 645 Q 834 640 910 637 Q 985 653 1060 639" fill="none" stroke="#42311f" stroke-opacity="0.05" stroke-width="1.6"/>
-    <path d="M -20 701 Q 58 700 136 706 Q 231 686 325 695 Q 416 705 506 703 Q 584 684 661 701 Q 761 705 860 696 Q 913 716 966 702" fill="none" stroke="#42311f" stroke-opacity="0.07" stroke-width="2.1"/>
-    <path d="M -20 780 Q 67 794 154 775 Q 229 794 304 778 Q 358 797 413 782 Q 458 760 504 781 Q 611 785 718 784 Q 770 783 822 776 Q 888 764 955 779" fill="none" stroke="#42311f" stroke-opacity="0.06" stroke-width="2.1"/>
-    <path d="M -20 839 Q 75 818 170 843 Q 250 860 330 839 Q 381 848 431 835 Q 540 841 649 843 Q 726 830 803 841 Q 894 837 985 836" fill="none" stroke="#42311f" stroke-opacity="0.10" stroke-width="2.1"/>
-    <ellipse cx="303" cy="265" rx="10" ry="6" fill="none" stroke="#42311f" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="303" cy="265" rx="19" ry="12" fill="none" stroke="#42311f" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="303" cy="265" rx="28" ry="17" fill="none" stroke="#42311f" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 11 Q 87 16 195 8 Q 246 5 297 9 Q 385 9 472 7 Q 576 13 679 7 Q 754 7 829 6 Q 927 7 1024 13" fill="none" stroke="#3a2b1c" stroke-opacity="0.18" stroke-width="1.9"/>
+    <path d="M -20 60 Q 93 56 206 58 Q 259 43 313 62 Q 417 74 520 58 Q 587 46 654 59 Q 773 54 892 57 Q 989 50 1086 63" fill="none" stroke="#3a2b1c" stroke-opacity="0.18" stroke-width="2.0"/>
+    <path d="M -20 105 Q 59 98 138 103 Q 228 100 317 102 Q 405 111 493 101 Q 558 102 623 101 Q 701 102 779 103 Q 861 98 943 108" fill="none" stroke="#3a2b1c" stroke-opacity="0.16" stroke-width="1.3"/>
+    <path d="M -20 158 Q 51 160 122 163 Q 179 159 236 163 Q 346 153 456 163 Q 548 167 640 160 Q 737 167 834 160 Q 908 161 981 162" fill="none" stroke="#3a2b1c" stroke-opacity="0.12" stroke-width="2.0"/>
+    <path d="M -20 225 Q 73 226 165 223 Q 260 219 355 225 Q 474 219 593 226 Q 706 220 819 227 Q 922 227 1025 220" fill="none" stroke="#3a2b1c" stroke-opacity="0.12" stroke-width="1.2"/>
+    <path d="M -20 273 Q 33 280 85 274 Q 202 277 318 271 Q 387 275 457 275 Q 543 281 630 274 Q 700 265 770 276 Q 843 269 916 273 Q 1030 276 1143 270" fill="none" stroke="#3a2b1c" stroke-opacity="0.16" stroke-width="1.8"/>
+    <path d="M -20 340 Q 53 339 125 335 Q 236 330 347 337 Q 441 332 536 337 Q 592 342 648 343 Q 764 334 879 336 Q 980 336 1080 342" fill="none" stroke="#3a2b1c" stroke-opacity="0.11" stroke-width="1.0"/>
+    <path d="M -20 388 Q 61 390 143 385 Q 247 379 352 392 Q 430 381 508 387 Q 593 392 679 390 Q 786 394 893 383 Q 970 395 1047 390" fill="none" stroke="#3a2b1c" stroke-opacity="0.19" stroke-width="1.6"/>
+    <path d="M -20 442 Q 48 440 116 441 Q 192 445 269 437 Q 328 441 388 438 Q 451 425 514 442 Q 615 441 716 446 Q 832 458 947 440" fill="none" stroke="#3a2b1c" stroke-opacity="0.14" stroke-width="1.7"/>
+    <path d="M -20 508 Q 33 518 85 507 Q 175 501 265 508 Q 332 518 400 511 Q 486 508 572 510 Q 670 512 769 513 Q 871 502 972 504" fill="none" stroke="#3a2b1c" stroke-opacity="0.18" stroke-width="1.7"/>
+    <path d="M -20 567 Q 75 559 170 566 Q 268 558 366 568 Q 482 578 599 562 Q 703 572 807 571 Q 885 570 963 571" fill="none" stroke="#3a2b1c" stroke-opacity="0.14" stroke-width="1.1"/>
+    <path d="M -20 617 Q 48 609 115 622 Q 211 612 308 615 Q 386 631 465 619 Q 521 622 578 620 Q 652 603 726 619 Q 841 613 956 615" fill="none" stroke="#3a2b1c" stroke-opacity="0.20" stroke-width="1.9"/>
+    <path d="M -20 663 Q 79 663 177 665 Q 279 659 380 662 Q 479 659 579 660 Q 695 662 811 666 Q 874 658 937 660" fill="none" stroke="#3a2b1c" stroke-opacity="0.17" stroke-width="1.2"/>
+    <path d="M -20 741 Q 74 744 168 745 Q 229 736 291 740 Q 360 737 430 742 Q 513 745 597 737 Q 651 747 705 736 Q 796 753 887 737 Q 973 729 1060 742" fill="none" stroke="#3a2b1c" stroke-opacity="0.20" stroke-width="1.9"/>
+    <path d="M -20 798 Q 54 796 127 797 Q 239 811 352 801 Q 468 802 584 797 Q 638 794 692 796 Q 749 797 806 800 Q 906 808 1007 794" fill="none" stroke="#3a2b1c" stroke-opacity="0.15" stroke-width="2.0"/>
+    <path d="M -20 838 Q 87 834 194 840 Q 290 838 386 838 Q 450 855 513 843 Q 620 822 726 837 Q 780 849 833 837 Q 914 842 995 837" fill="none" stroke="#3a2b1c" stroke-opacity="0.15" stroke-width="0.9"/>
   </g>
-  <g opacity="0.55">
-    <rect x="310" y="449" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
-    <text x="450" y="484" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="31" fill="#e7c49f">Irókò Grain</text>
+  <rect width="900" height="900" fill="url(#v)"/>
+  <g opacity="0.85" transform="translate(216 171) scale(4.68)">
+    
+      <ellipse cx="50" cy="50" rx="8" ry="5" fill="none" stroke="#e7c49f" stroke-width="1.2"/>
+      <ellipse cx="50" cy="50" rx="17" ry="11" fill="none" stroke="#e7c49f" stroke-width="1"/>
+      <ellipse cx="50" cy="50" rx="27" ry="18" fill="none" stroke="#e7c49f" stroke-width="0.8"/>
+      <ellipse cx="50" cy="50" rx="38" ry="26" fill="none" stroke="#e7c49f" stroke-width="0.6" opacity="0.7"/>
+    
+  </g>
+  <g opacity="0.75">
+    <rect x="390" y="693" width="120" height="1" fill="#e7c49f" opacity="0.6"/>
+    <text x="450" y="734" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="27" fill="#e7c49f" letter-spacing="1">Irókò Grain</text>
   </g>
 </svg>

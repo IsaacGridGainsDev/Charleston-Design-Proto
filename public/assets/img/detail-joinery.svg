@@ -1,33 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
       <stop offset="0" stop-color="#725838"/>
-      <stop offset="0.55" stop-color="#523c28"/>
-      <stop offset="1" stop-color="#38291c"/>
+      <stop offset="0.5" stop-color="#523c28"/>
+      <stop offset="1" stop-color="#302318"/>
     </linearGradient>
+    <radialGradient id="v" cx="0.5" cy="0.42" r="0.9">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.35"/>
+    </radialGradient>
   </defs>
   <rect width="900" height="900" fill="url(#g)"/>
   <g>
-    <path d="M -20 -1 Q 31 1 82 -6 Q 144 2 205 3 Q 308 -5 410 -7 Q 504 -0 598 -3 Q 644 -2 690 -5 Q 774 4 857 -5 Q 907 1 956 -6" fill="none" stroke="#38291c" stroke-opacity="0.07" stroke-width="1.7"/>
-    <path d="M -20 74 Q 46 73 111 70 Q 182 79 253 72 Q 350 66 447 69 Q 533 73 618 79 Q 670 80 722 76 Q 791 65 860 75 Q 955 73 1049 74" fill="none" stroke="#38291c" stroke-opacity="0.13" stroke-width="2.0"/>
-    <path d="M -20 127 Q 55 128 130 132 Q 240 128 350 125 Q 409 130 469 130 Q 530 131 591 133 Q 661 136 732 126 Q 819 134 906 123 Q 974 136 1041 122" fill="none" stroke="#38291c" stroke-opacity="0.08" stroke-width="1.8"/>
-    <path d="M -20 198 Q 85 204 191 192 Q 241 181 290 197 Q 337 199 384 199 Q 442 211 500 197 Q 607 192 715 199 Q 795 189 875 201 Q 920 188 966 196" fill="none" stroke="#38291c" stroke-opacity="0.15" stroke-width="1.8"/>
-    <path d="M -20 248 Q 65 255 149 243 Q 245 245 341 248 Q 413 246 485 254 Q 590 258 695 251 Q 785 239 876 242 Q 975 252 1074 249" fill="none" stroke="#38291c" stroke-opacity="0.08" stroke-width="1.4"/>
-    <path d="M -20 330 Q 26 325 73 328 Q 122 346 171 335 Q 269 313 367 329 Q 420 337 472 334 Q 568 340 664 325 Q 710 316 756 334 Q 855 330 954 327" fill="none" stroke="#38291c" stroke-opacity="0.14" stroke-width="1.2"/>
-    <path d="M -20 382 Q 89 381 198 385 Q 295 383 392 388 Q 487 387 583 388 Q 633 385 683 379 Q 749 380 816 388 Q 864 381 913 378 Q 1023 382 1133 385" fill="none" stroke="#38291c" stroke-opacity="0.11" stroke-width="2.2"/>
-    <path d="M -20 447 Q 73 453 167 451 Q 232 457 297 450 Q 379 444 462 448 Q 511 435 561 444 Q 615 434 668 449 Q 760 450 853 443 Q 945 456 1036 448" fill="none" stroke="#38291c" stroke-opacity="0.08" stroke-width="1.9"/>
-    <path d="M -20 512 Q 35 520 89 514 Q 195 505 301 509 Q 379 502 457 510 Q 537 512 617 517 Q 700 515 782 513 Q 878 509 974 506" fill="none" stroke="#38291c" stroke-opacity="0.16" stroke-width="2.3"/>
-    <path d="M -20 571 Q 39 574 99 567 Q 145 571 191 565 Q 253 569 315 568 Q 360 567 405 568 Q 472 570 538 569 Q 604 563 670 575 Q 763 571 856 565 Q 916 578 976 571" fill="none" stroke="#38291c" stroke-opacity="0.07" stroke-width="2.3"/>
-    <path d="M -20 651 Q 58 652 135 646 Q 201 653 267 653 Q 353 653 438 649 Q 488 643 537 655 Q 639 658 740 646 Q 835 645 930 649" fill="none" stroke="#38291c" stroke-opacity="0.07" stroke-width="2.4"/>
-    <path d="M -20 714 Q 50 733 120 711 Q 202 721 284 710 Q 354 695 424 717 Q 481 697 538 711 Q 624 720 711 714 Q 812 725 912 710 Q 992 699 1072 710" fill="none" stroke="#38291c" stroke-opacity="0.07" stroke-width="1.1"/>
-    <path d="M -20 768 Q 68 749 155 765 Q 239 770 322 763 Q 373 772 424 770 Q 475 781 525 765 Q 608 770 691 767 Q 798 763 904 768 Q 985 785 1065 774" fill="none" stroke="#38291c" stroke-opacity="0.13" stroke-width="1.9"/>
-    <path d="M -20 840 Q 87 858 195 843 Q 254 843 313 839 Q 373 851 433 837 Q 524 840 615 839 Q 706 848 797 846 Q 907 851 1017 837" fill="none" stroke="#38291c" stroke-opacity="0.12" stroke-width="1.8"/>
-    <ellipse cx="688" cy="421" rx="10" ry="6" fill="none" stroke="#38291c" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="688" cy="421" rx="19" ry="12" fill="none" stroke="#38291c" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="688" cy="421" rx="28" ry="17" fill="none" stroke="#38291c" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 -10 Q 35 -1 89 -13 Q 180 -5 270 -12 Q 349 -3 429 -10 Q 496 -1 563 -14 Q 635 -11 706 -5 Q 809 -15 912 -6 Q 1016 -20 1121 -11" fill="none" stroke="#302318" stroke-opacity="0.12" stroke-width="1.3"/>
+    <path d="M -20 44 Q 77 31 175 45 Q 283 55 392 44 Q 456 35 519 49 Q 624 40 729 46 Q 828 59 926 45" fill="none" stroke="#302318" stroke-opacity="0.12" stroke-width="1.6"/>
+    <path d="M -20 124 Q 59 113 139 123 Q 244 109 349 121 Q 399 115 450 121 Q 543 116 637 126 Q 754 118 870 126 Q 935 114 999 129" fill="none" stroke="#302318" stroke-opacity="0.12" stroke-width="0.9"/>
+    <path d="M -20 157 Q 50 153 121 158 Q 224 151 328 153 Q 392 153 456 161 Q 556 155 656 158 Q 719 151 781 161 Q 895 151 1009 159" fill="none" stroke="#302318" stroke-opacity="0.13" stroke-width="1.9"/>
+    <path d="M -20 216 Q 51 205 123 219 Q 219 234 315 220 Q 435 232 555 219 Q 609 201 664 220 Q 770 203 875 214 Q 952 220 1028 220" fill="none" stroke="#302318" stroke-opacity="0.11" stroke-width="0.9"/>
+    <path d="M -20 284 Q 67 289 155 282 Q 209 289 262 288 Q 372 292 482 288 Q 546 277 611 284 Q 707 277 804 284 Q 906 286 1009 284" fill="none" stroke="#302318" stroke-opacity="0.14" stroke-width="1.4"/>
+    <path d="M -20 333 Q 79 338 177 333 Q 246 331 315 337 Q 406 323 497 330 Q 561 341 625 332 Q 696 342 768 334 Q 883 330 999 334" fill="none" stroke="#302318" stroke-opacity="0.10" stroke-width="0.9"/>
+    <path d="M -20 392 Q 71 392 162 394 Q 242 392 321 392 Q 428 388 534 391 Q 597 387 659 394 Q 734 383 809 396 Q 895 396 981 395" fill="none" stroke="#302318" stroke-opacity="0.19" stroke-width="0.9"/>
+    <path d="M -20 440 Q 44 436 108 438 Q 179 443 250 442 Q 320 442 389 445 Q 509 443 629 442 Q 742 434 856 438 Q 964 443 1071 439" fill="none" stroke="#302318" stroke-opacity="0.13" stroke-width="1.6"/>
+    <path d="M -20 510 Q 66 517 152 506 Q 230 503 307 512 Q 391 510 474 513 Q 577 516 680 510 Q 785 505 891 507 Q 995 515 1099 507" fill="none" stroke="#302318" stroke-opacity="0.13" stroke-width="1.6"/>
+    <path d="M -20 559 Q 39 573 98 555 Q 205 569 311 558 Q 391 565 470 559 Q 575 561 679 558 Q 731 568 782 564 Q 843 573 904 558 Q 998 563 1092 561" fill="none" stroke="#302318" stroke-opacity="0.18" stroke-width="2.2"/>
+    <path d="M -20 612 Q 67 604 155 608 Q 245 611 335 616 Q 391 602 448 612 Q 500 616 552 612 Q 615 602 678 616 Q 748 605 818 613 Q 873 601 928 612" fill="none" stroke="#302318" stroke-opacity="0.10" stroke-width="2.0"/>
+    <path d="M -20 673 Q 38 673 96 673 Q 150 680 205 677 Q 264 668 323 672 Q 423 672 523 674 Q 638 674 754 673 Q 852 669 950 668" fill="none" stroke="#302318" stroke-opacity="0.10" stroke-width="0.9"/>
+    <path d="M -20 729 Q 67 744 154 733 Q 236 732 318 731 Q 388 743 458 728 Q 557 737 656 727 Q 749 740 842 726 Q 910 744 977 731" fill="none" stroke="#302318" stroke-opacity="0.13" stroke-width="2.1"/>
+    <path d="M -20 780 Q 58 793 135 777 Q 246 773 357 781 Q 427 792 498 782 Q 598 772 699 780 Q 818 781 938 785" fill="none" stroke="#302318" stroke-opacity="0.09" stroke-width="0.9"/>
+    <path d="M -20 850 Q 62 845 143 850 Q 225 841 308 852 Q 410 848 513 853 Q 623 848 733 845 Q 791 859 849 848 Q 951 850 1053 846" fill="none" stroke="#302318" stroke-opacity="0.15" stroke-width="1.1"/>
   </g>
-  <g opacity="0.55">
-    <rect x="310" y="449" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
-    <text x="450" y="484" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="31" fill="#e7c49f">Joinery Detail</text>
+  <rect width="900" height="900" fill="url(#v)"/>
+  <g opacity="0.85" transform="translate(216 171) scale(4.68)">
+    
+      <path d="M20 30 H56 V46 H72 V30 H80 V80 H64 V64 H48 V80 H20 Z" fill="none" stroke="#e7c49f" stroke-width="1.5"/>
+      <path d="M56 46 H48 V64 M64 64 V46 H72" stroke="#e7c49f" stroke-width="1"/>
+      <path d="M26 38 H40 M26 72 H38" stroke="#e7c49f" stroke-width="0.7" opacity="0.8"/>
+    
+  </g>
+  <g opacity="0.75">
+    <rect x="390" y="693" width="120" height="1" fill="#e7c49f" opacity="0.6"/>
+    <text x="450" y="734" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="27" fill="#e7c49f" letter-spacing="1">Through-Tenon Joinery</text>
   </g>
 </svg>

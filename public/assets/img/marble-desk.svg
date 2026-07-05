@@ -1,29 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#5c5244"/><stop offset="0.55" stop-color="#3c342c"/><stop offset="1" stop-color="#28221c"/>
-  </linearGradient></defs>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#5c5244"/>
+      <stop offset="0.5" stop-color="#3c342c"/>
+      <stop offset="1" stop-color="#221d18"/>
+    </linearGradient>
+    <radialGradient id="v" cx="0.5" cy="0.42" r="0.9">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.35"/>
+    </radialGradient>
+  </defs>
   <rect width="900" height="1100" fill="url(#g)"/>
   <g>
-    <path d="M -20 -1 Q 73 -11 165 1 Q 225 7 285 -7 Q 389 8 494 -7 Q 549 10 605 2 Q 668 7 732 -0 Q 794 4 855 -2 Q 909 8 963 1" fill="none" stroke="#28221c" stroke-opacity="0.08" stroke-width="1.7"/>
-    <path d="M -20 82 Q 42 83 103 88 Q 155 76 206 82 Q 315 95 424 76 Q 511 73 597 79 Q 651 82 705 88 Q 813 79 920 87" fill="none" stroke="#28221c" stroke-opacity="0.13" stroke-width="1.1"/>
-    <path d="M -20 165 Q 89 157 197 170 Q 276 166 354 161 Q 431 171 507 166 Q 616 166 725 170 Q 778 171 832 166 Q 935 161 1037 165" fill="none" stroke="#28221c" stroke-opacity="0.14" stroke-width="1.4"/>
-    <path d="M -20 233 Q 67 233 154 227 Q 249 229 344 230 Q 414 217 484 237 Q 581 255 677 235 Q 733 230 788 239 Q 833 226 879 229 Q 935 223 991 235" fill="none" stroke="#28221c" stroke-opacity="0.06" stroke-width="2.4"/>
-    <path d="M -20 313 Q 32 313 83 311 Q 161 305 238 311 Q 316 305 394 313 Q 494 315 593 308 Q 679 305 765 309 Q 811 313 857 309 Q 920 306 983 318" fill="none" stroke="#28221c" stroke-opacity="0.07" stroke-width="2.1"/>
-    <path d="M -20 399 Q 63 394 146 403 Q 235 386 325 401 Q 379 398 433 395 Q 510 404 586 402 Q 652 386 718 398 Q 823 401 927 400" fill="none" stroke="#28221c" stroke-opacity="0.13" stroke-width="2.0"/>
-    <path d="M -20 480 Q 73 496 166 476 Q 228 491 290 481 Q 391 494 492 478 Q 549 488 605 476 Q 682 469 759 479 Q 847 487 934 482" fill="none" stroke="#28221c" stroke-opacity="0.06" stroke-width="2.4"/>
-    <path d="M -20 554 Q 65 561 150 559 Q 243 561 337 549 Q 383 565 430 558 Q 500 540 570 553 Q 670 566 769 550 Q 827 540 886 557 Q 947 573 1008 553" fill="none" stroke="#28221c" stroke-opacity="0.07" stroke-width="1.7"/>
-    <path d="M -20 621 Q 27 617 73 620 Q 121 608 168 627 Q 269 618 370 626 Q 474 638 578 624 Q 660 622 741 624 Q 826 644 910 618 Q 1013 633 1116 621" fill="none" stroke="#28221c" stroke-opacity="0.14" stroke-width="1.5"/>
-    <path d="M -20 705 Q 88 696 196 709 Q 284 720 372 703 Q 460 719 548 710 Q 638 717 729 707 Q 809 694 890 705 Q 999 721 1107 699" fill="none" stroke="#28221c" stroke-opacity="0.08" stroke-width="1.4"/>
-    <path d="M -20 793 Q 75 787 170 791 Q 278 785 386 794 Q 449 797 512 787 Q 601 788 690 798 Q 756 796 822 787 Q 929 795 1035 798" fill="none" stroke="#28221c" stroke-opacity="0.13" stroke-width="1.1"/>
-    <path d="M -20 869 Q 38 880 96 871 Q 164 858 231 871 Q 280 862 329 864 Q 385 876 442 866 Q 551 863 660 873 Q 753 873 845 870 Q 900 878 954 874" fill="none" stroke="#28221c" stroke-opacity="0.11" stroke-width="1.3"/>
-    <path d="M -20 935 Q 88 931 196 932 Q 276 924 355 938 Q 450 930 546 929 Q 649 941 753 938 Q 812 945 870 936 Q 917 945 964 937" fill="none" stroke="#28221c" stroke-opacity="0.07" stroke-width="2.4"/>
-    <path d="M -20 1023 Q 27 1013 74 1027 Q 120 1012 165 1018 Q 248 1010 331 1027 Q 406 1034 480 1028 Q 588 1012 696 1022 Q 793 1017 889 1029 Q 956 1028 1023 1020" fill="none" stroke="#28221c" stroke-opacity="0.13" stroke-width="1.5"/>
-    <ellipse cx="408" cy="697" rx="10" ry="6" fill="none" stroke="#28221c" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="408" cy="697" rx="19" ry="12" fill="none" stroke="#28221c" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="408" cy="697" rx="28" ry="17" fill="none" stroke="#28221c" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 11 Q 91 6 201 9 Q 291 7 380 10 Q 498 20 617 11 Q 689 20 761 11 Q 823 2 884 10 Q 956 19 1027 10" fill="none" stroke="#221d18" stroke-opacity="0.16" stroke-width="1.6"/>
+    <path d="M -20 61 Q 83 51 187 61 Q 259 62 332 57 Q 403 65 474 62 Q 534 49 595 64 Q 700 74 805 62 Q 866 78 927 66" fill="none" stroke="#221d18" stroke-opacity="0.16" stroke-width="1.9"/>
+    <path d="M -20 144 Q 95 144 211 148 Q 282 137 353 143 Q 428 149 503 144 Q 582 142 662 143 Q 766 142 869 149 Q 944 150 1018 149" fill="none" stroke="#221d18" stroke-opacity="0.17" stroke-width="0.8"/>
+    <path d="M -20 211 Q 80 208 180 210 Q 253 216 325 209 Q 415 206 504 208 Q 589 217 674 207 Q 741 208 808 211 Q 909 211 1009 216" fill="none" stroke="#221d18" stroke-opacity="0.09" stroke-width="1.7"/>
+    <path d="M -20 280 Q 64 271 148 281 Q 224 263 301 281 Q 370 274 439 284 Q 497 265 555 282 Q 628 291 700 279 Q 761 265 822 277 Q 886 263 950 277" fill="none" stroke="#221d18" stroke-opacity="0.15" stroke-width="1.9"/>
+    <path d="M -20 338 Q 50 325 121 341 Q 176 346 230 340 Q 302 348 374 342 Q 455 349 537 335 Q 619 337 702 336 Q 800 344 897 336 Q 999 325 1102 334" fill="none" stroke="#221d18" stroke-opacity="0.13" stroke-width="1.4"/>
+    <path d="M -20 412 Q 67 417 154 412 Q 205 411 256 407 Q 342 416 427 415 Q 511 413 596 414 Q 697 413 799 417 Q 903 413 1008 415" fill="none" stroke="#221d18" stroke-opacity="0.18" stroke-width="0.9"/>
+    <path d="M -20 491 Q 100 499 219 494 Q 299 485 379 491 Q 491 499 603 493 Q 658 496 713 490 Q 800 497 887 495 Q 967 477 1047 492" fill="none" stroke="#221d18" stroke-opacity="0.08" stroke-width="2.0"/>
+    <path d="M -20 538 Q 60 534 140 536 Q 237 535 334 538 Q 431 543 527 539 Q 602 545 677 542 Q 738 543 798 536 Q 861 530 924 539" fill="none" stroke="#221d18" stroke-opacity="0.18" stroke-width="1.9"/>
+    <path d="M -20 620 Q 53 612 126 617 Q 190 611 255 619 Q 324 638 393 617 Q 468 604 543 624 Q 624 634 704 618 Q 785 630 866 622 Q 943 617 1020 619" fill="none" stroke="#221d18" stroke-opacity="0.10" stroke-width="1.3"/>
+    <path d="M -20 695 Q 42 700 105 697 Q 163 698 222 691 Q 306 696 390 698 Q 462 691 534 700 Q 640 693 746 693 Q 804 694 862 690 Q 968 694 1075 699" fill="none" stroke="#221d18" stroke-opacity="0.12" stroke-width="2.1"/>
+    <path d="M -20 764 Q 89 759 199 769 Q 255 768 311 763 Q 394 776 477 762 Q 572 760 667 761 Q 735 766 802 761 Q 863 769 924 767" fill="none" stroke="#221d18" stroke-opacity="0.09" stroke-width="1.9"/>
+    <path d="M -20 834 Q 56 831 132 830 Q 194 848 256 838 Q 358 844 460 831 Q 572 821 683 830 Q 768 827 853 835 Q 966 826 1080 832" fill="none" stroke="#221d18" stroke-opacity="0.17" stroke-width="1.3"/>
+    <path d="M -20 903 Q 91 908 202 899 Q 278 904 355 903 Q 416 898 477 907 Q 533 909 590 899 Q 673 908 757 907 Q 844 899 932 904" fill="none" stroke="#221d18" stroke-opacity="0.16" stroke-width="1.2"/>
+    <path d="M -20 962 Q 39 968 98 960 Q 191 971 284 962 Q 386 976 489 959 Q 554 947 619 966 Q 685 945 751 958 Q 829 978 907 958 Q 973 949 1039 963" fill="none" stroke="#221d18" stroke-opacity="0.12" stroke-width="2.2"/>
+    <path d="M -20 1035 Q 70 1046 161 1038 Q 220 1033 279 1037 Q 370 1047 460 1031 Q 574 1032 687 1031 Q 751 1026 815 1032 Q 867 1043 920 1032 Q 992 1037 1065 1035" fill="none" stroke="#221d18" stroke-opacity="0.12" stroke-width="1.7"/>
   </g>
-  <g opacity="0.55">
-    <rect x="310" y="549" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
-    <text x="450" y="584" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="31" fill="#e7c49f">Marble Slab Desk</text>
+  <rect width="900" height="1100" fill="url(#v)"/>
+  <g opacity="0.85" transform="translate(216 261) scale(4.68)">
+    
+      <rect x="14" y="40" width="72" height="7" rx="1.5" fill="none" stroke="#e7c49f" stroke-width="1.6"/>
+      <path d="M20 47 L20 88 M80 47 L80 88 M20 60 H44 M44 47 V88" stroke="#e7c49f" stroke-width="1.4"/>
+      <circle cx="32" cy="54" r="1.6" fill="#e7c49f"/>
+      <path d="M58 34 L74 34 M60 28 L72 28" stroke="#e7c49f" stroke-width="1"/>
+    
+  </g>
+  <g opacity="0.75">
+    <rect x="390" y="795" width="120" height="1" fill="#e7c49f" opacity="0.6"/>
+    <text x="450" y="836" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="27" fill="#e7c49f" letter-spacing="1">Marble Slab Desk</text>
   </g>
 </svg>

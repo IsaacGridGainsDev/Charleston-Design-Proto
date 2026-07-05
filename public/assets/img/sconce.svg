@@ -1,33 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
       <stop offset="0" stop-color="#4d3a24"/>
-      <stop offset="0.55" stop-color="#2f241a"/>
-      <stop offset="1" stop-color="#1f1810"/>
+      <stop offset="0.5" stop-color="#2f241a"/>
+      <stop offset="1" stop-color="#191209"/>
     </linearGradient>
+    <radialGradient id="v" cx="0.5" cy="0.42" r="0.9">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.35"/>
+    </radialGradient>
   </defs>
   <rect width="800" height="1000" fill="url(#g)"/>
   <g>
-    <path d="M -20 -5 Q 62 -20 145 -8 Q 194 13 243 -2 Q 319 14 395 1 Q 453 -15 512 -9 Q 597 -1 683 -5 Q 779 -4 874 -7" fill="none" stroke="#1f1810" stroke-opacity="0.12" stroke-width="2.5"/>
-    <path d="M -20 62 Q 34 70 88 62 Q 188 68 287 68 Q 370 65 453 68 Q 550 57 647 58 Q 752 49 857 68" fill="none" stroke="#1f1810" stroke-opacity="0.15" stroke-width="2.1"/>
-    <path d="M -20 152 Q 73 155 167 149 Q 217 161 267 151 Q 320 154 373 149 Q 435 165 498 153 Q 591 163 685 151 Q 759 149 833 150" fill="none" stroke="#1f1810" stroke-opacity="0.14" stroke-width="2.4"/>
-    <path d="M -20 210 Q 39 190 98 212 Q 193 203 289 216 Q 381 203 472 213 Q 572 196 672 215 Q 745 201 819 209 Q 898 211 977 208" fill="none" stroke="#1f1810" stroke-opacity="0.06" stroke-width="2.0"/>
-    <path d="M -20 290 Q 51 304 122 284 Q 175 271 228 291 Q 307 279 386 290 Q 432 272 477 296 Q 579 273 682 292 Q 760 292 838 294" fill="none" stroke="#1f1810" stroke-opacity="0.12" stroke-width="2.5"/>
-    <path d="M -20 361 Q 33 376 85 359 Q 190 375 295 366 Q 389 355 483 361 Q 579 339 675 361 Q 757 371 839 359" fill="none" stroke="#1f1810" stroke-opacity="0.12" stroke-width="2.2"/>
-    <path d="M -20 426 Q 84 421 187 427 Q 264 439 340 423 Q 404 422 468 428 Q 523 445 578 426 Q 670 423 763 421 Q 833 429 903 421" fill="none" stroke="#1f1810" stroke-opacity="0.16" stroke-width="1.9"/>
-    <path d="M -20 499 Q 41 497 102 501 Q 158 499 215 496 Q 296 502 378 499 Q 472 501 566 494 Q 653 499 741 502 Q 847 497 953 503" fill="none" stroke="#1f1810" stroke-opacity="0.08" stroke-width="2.0"/>
-    <path d="M -20 562 Q 54 559 128 562 Q 197 549 266 564 Q 352 541 438 559 Q 543 552 649 559 Q 732 556 814 567 Q 923 545 1032 558" fill="none" stroke="#1f1810" stroke-opacity="0.07" stroke-width="1.7"/>
-    <path d="M -20 639 Q 83 622 185 633 Q 237 631 290 634 Q 363 633 436 641 Q 544 657 652 638 Q 738 624 825 640" fill="none" stroke="#1f1810" stroke-opacity="0.15" stroke-width="2.4"/>
-    <path d="M -20 707 Q 84 711 187 710 Q 237 709 286 701 Q 379 713 472 705 Q 517 711 562 713 Q 647 705 733 705 Q 831 716 928 705" fill="none" stroke="#1f1810" stroke-opacity="0.07" stroke-width="2.6"/>
-    <path d="M -20 784 Q 45 791 110 790 Q 186 795 261 783 Q 334 793 406 790 Q 500 790 594 788 Q 699 798 804 785 Q 874 770 944 785" fill="none" stroke="#1f1810" stroke-opacity="0.09" stroke-width="1.0"/>
-    <path d="M -20 867 Q 86 855 191 865 Q 287 871 383 869 Q 460 857 537 871 Q 631 866 725 868 Q 823 867 920 867" fill="none" stroke="#1f1810" stroke-opacity="0.10" stroke-width="2.2"/>
-    <path d="M -20 933 Q 75 930 171 935 Q 240 943 310 939 Q 406 930 501 931 Q 574 936 647 928 Q 728 944 808 928 Q 911 935 1014 939" fill="none" stroke="#1f1810" stroke-opacity="0.13" stroke-width="2.2"/>
-    <ellipse cx="521" cy="453" rx="10" ry="6" fill="none" stroke="#1f1810" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="521" cy="453" rx="19" ry="12" fill="none" stroke="#1f1810" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="521" cy="453" rx="28" ry="17" fill="none" stroke="#1f1810" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 -10 Q 71 -21 161 -12 Q 241 -17 320 -10 Q 397 -17 474 -10 Q 532 2 591 -5 Q 670 -2 749 -8 Q 851 -22 953 -11" fill="none" stroke="#191209" stroke-opacity="0.11" stroke-width="1.2"/>
+    <path d="M -20 72 Q 89 77 197 71 Q 264 79 331 71 Q 382 65 433 70 Q 541 78 648 73 Q 721 80 795 77 Q 862 81 928 69" fill="none" stroke="#191209" stroke-opacity="0.16" stroke-width="2.0"/>
+    <path d="M -20 132 Q 39 136 98 137 Q 160 144 222 132 Q 303 120 384 135 Q 469 136 554 135 Q 663 136 772 130 Q 861 146 950 129" fill="none" stroke="#191209" stroke-opacity="0.09" stroke-width="1.4"/>
+    <path d="M -20 191 Q 32 197 84 195 Q 139 187 195 193 Q 254 189 313 192 Q 388 183 463 195 Q 534 192 605 188 Q 710 199 814 193 Q 910 184 1006 195" fill="none" stroke="#191209" stroke-opacity="0.16" stroke-width="1.7"/>
+    <path d="M -20 252 Q 62 253 144 248 Q 214 257 284 248 Q 368 250 453 255 Q 530 252 608 247 Q 663 258 718 248 Q 816 250 914 250" fill="none" stroke="#191209" stroke-opacity="0.19" stroke-width="1.9"/>
+    <path d="M -20 305 Q 43 306 105 306 Q 157 310 209 310 Q 293 306 377 305 Q 438 307 499 309 Q 563 300 626 300 Q 712 301 798 308 Q 856 302 914 303" fill="none" stroke="#191209" stroke-opacity="0.11" stroke-width="1.8"/>
+    <path d="M -20 386 Q 64 394 147 384 Q 236 382 325 388 Q 409 386 494 385 Q 558 379 621 387 Q 733 381 845 384" fill="none" stroke="#191209" stroke-opacity="0.15" stroke-width="1.9"/>
+    <path d="M -20 433 Q 97 433 214 437 Q 293 442 373 436 Q 466 437 560 432 Q 650 428 739 434 Q 794 421 848 428" fill="none" stroke="#191209" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 495 Q 75 513 170 494 Q 222 483 275 493 Q 380 490 485 491 Q 581 490 677 498 Q 736 488 794 490 Q 867 494 940 498" fill="none" stroke="#191209" stroke-opacity="0.19" stroke-width="1.6"/>
+    <path d="M -20 560 Q 67 548 154 558 Q 246 571 339 563 Q 394 572 449 559 Q 552 554 655 558 Q 719 569 783 560 Q 902 557 1022 556" fill="none" stroke="#191209" stroke-opacity="0.10" stroke-width="1.3"/>
+    <path d="M -20 622 Q 50 626 120 626 Q 239 634 358 620 Q 467 619 576 626 Q 690 609 805 624 Q 859 610 914 625" fill="none" stroke="#191209" stroke-opacity="0.17" stroke-width="1.2"/>
+    <path d="M -20 694 Q 69 689 158 695 Q 235 698 313 693 Q 422 705 532 690 Q 608 696 684 689 Q 737 682 791 690 Q 863 698 936 693" fill="none" stroke="#191209" stroke-opacity="0.10" stroke-width="1.1"/>
+    <path d="M -20 760 Q 93 771 206 764 Q 317 754 428 763 Q 486 770 543 755 Q 616 762 690 763 Q 758 752 827 756" fill="none" stroke="#191209" stroke-opacity="0.14" stroke-width="1.0"/>
+    <path d="M -20 821 Q 92 838 204 820 Q 286 808 367 821 Q 457 827 548 826 Q 620 829 693 818 Q 761 814 830 817" fill="none" stroke="#191209" stroke-opacity="0.15" stroke-width="2.0"/>
+    <path d="M -20 879 Q 44 864 109 884 Q 163 862 217 876 Q 325 868 432 875 Q 496 882 561 879 Q 671 888 781 877 Q 863 867 945 879" fill="none" stroke="#191209" stroke-opacity="0.19" stroke-width="1.1"/>
+    <path d="M -20 934 Q 91 935 202 937 Q 265 925 328 931 Q 399 950 471 936 Q 531 950 591 937 Q 658 951 725 931 Q 777 941 829 934" fill="none" stroke="#191209" stroke-opacity="0.11" stroke-width="2.1"/>
   </g>
-  <g opacity="0.55">
-    <rect x="260" y="499" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
-    <text x="400" y="534" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="28" fill="#e7c49f">Palm Sconce</text>
+  <rect width="800" height="1000" fill="url(#v)"/>
+  <g opacity="0.85" transform="translate(192 242) scale(4.16)">
+    
+      <path d="M50 20 L50 44" stroke="#e7c49f" stroke-width="1.4"/>
+      <circle cx="50" cy="56" r="12" fill="none" stroke="#e7c49f" stroke-width="1.6"/>
+      <circle cx="50" cy="56" r="24" fill="none" stroke="#e7c49f" stroke-width="0.6" opacity="0.6"/>
+      <circle cx="50" cy="56" r="34" fill="none" stroke="#e7c49f" stroke-width="0.4" opacity="0.35"/>
+      <path d="M38 84 C46 80 54 80 62 84" stroke="#e7c49f" stroke-width="1" fill="none"/>
+    
+  </g>
+  <g opacity="0.75">
+    <rect x="340" y="718" width="120" height="1" fill="#e7c49f" opacity="0.6"/>
+    <text x="400" y="756" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#e7c49f" letter-spacing="1">Palm Sconce</text>
   </g>
 </svg>

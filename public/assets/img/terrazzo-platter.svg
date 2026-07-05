@@ -1,29 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#796541"/><stop offset="0.55" stop-color="#59452f"/><stop offset="1" stop-color="#3f3121"/>
-  </linearGradient></defs>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#796541"/>
+      <stop offset="0.5" stop-color="#59452f"/>
+      <stop offset="1" stop-color="#382a1c"/>
+    </linearGradient>
+    <radialGradient id="v" cx="0.5" cy="0.42" r="0.9">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.35"/>
+    </radialGradient>
+  </defs>
   <rect width="900" height="1100" fill="url(#g)"/>
   <g>
-    <path d="M -20 8 Q 40 31 101 5 Q 157 -4 214 14 Q 320 0 426 7 Q 525 23 623 12 Q 692 -6 760 8 Q 866 13 972 12" fill="none" stroke="#3f3121" stroke-opacity="0.07" stroke-width="1.8"/>
-    <path d="M -20 87 Q 77 98 173 86 Q 263 94 353 86 Q 432 98 510 91 Q 620 82 729 89 Q 809 99 890 84 Q 966 78 1041 91" fill="none" stroke="#3f3121" stroke-opacity="0.13" stroke-width="1.0"/>
-    <path d="M -20 149 Q 63 154 147 147 Q 197 151 247 151 Q 320 145 393 147 Q 453 155 513 148 Q 605 150 696 146 Q 759 152 822 154 Q 927 143 1032 146" fill="none" stroke="#3f3121" stroke-opacity="0.06" stroke-width="1.3"/>
-    <path d="M -20 233 Q 85 237 189 229 Q 259 219 328 231 Q 410 234 493 230 Q 556 250 619 235 Q 703 226 787 231 Q 881 214 976 235" fill="none" stroke="#3f3121" stroke-opacity="0.16" stroke-width="2.0"/>
-    <path d="M -20 305 Q 76 301 172 304 Q 259 308 347 303 Q 436 311 525 305 Q 596 308 667 310 Q 757 311 846 309 Q 953 302 1061 307" fill="none" stroke="#3f3121" stroke-opacity="0.07" stroke-width="1.2"/>
-    <path d="M -20 390 Q 44 380 108 395 Q 217 403 326 388 Q 424 368 523 384 Q 572 381 621 387 Q 722 387 823 394 Q 900 383 976 388" fill="none" stroke="#3f3121" stroke-opacity="0.06" stroke-width="1.7"/>
-    <path d="M -20 480 Q 86 460 191 480 Q 290 463 390 475 Q 448 459 506 483 Q 598 505 689 475 Q 780 495 870 477 Q 920 505 971 484" fill="none" stroke="#3f3121" stroke-opacity="0.06" stroke-width="1.3"/>
-    <path d="M -20 553 Q 53 547 127 548 Q 203 554 280 557 Q 325 550 370 548 Q 451 547 532 551 Q 640 556 748 555 Q 832 548 917 555 Q 1025 545 1133 557" fill="none" stroke="#3f3121" stroke-opacity="0.09" stroke-width="1.3"/>
-    <path d="M -20 632 Q 36 618 92 632 Q 150 632 208 638 Q 255 628 302 628 Q 357 636 413 637 Q 489 634 564 634 Q 665 653 766 630 Q 823 651 879 633 Q 981 615 1084 635" fill="none" stroke="#3f3121" stroke-opacity="0.06" stroke-width="1.2"/>
-    <path d="M -20 700 Q 52 704 124 705 Q 197 702 270 698 Q 340 693 410 694 Q 471 705 533 703 Q 622 698 712 698 Q 769 693 827 706 Q 910 697 993 700" fill="none" stroke="#3f3121" stroke-opacity="0.10" stroke-width="1.5"/>
-    <path d="M -20 784 Q 83 795 187 782 Q 261 776 336 790 Q 390 784 444 778 Q 519 783 594 778 Q 648 784 703 784 Q 768 771 833 782 Q 900 772 968 785" fill="none" stroke="#3f3121" stroke-opacity="0.07" stroke-width="1.9"/>
-    <path d="M -20 868 Q 57 870 135 873 Q 225 873 314 870 Q 374 872 434 872 Q 510 874 587 863 Q 691 867 795 869 Q 892 864 989 868" fill="none" stroke="#3f3121" stroke-opacity="0.05" stroke-width="1.1"/>
-    <path d="M -20 952 Q 53 944 125 957 Q 203 959 281 949 Q 356 947 432 953 Q 523 954 614 953 Q 679 961 744 946 Q 800 955 855 958 Q 956 947 1056 957" fill="none" stroke="#3f3121" stroke-opacity="0.10" stroke-width="1.9"/>
-    <path d="M -20 1024 Q 82 1039 184 1022 Q 287 1018 390 1027 Q 446 1029 501 1022 Q 610 1030 720 1023 Q 828 1010 935 1027" fill="none" stroke="#3f3121" stroke-opacity="0.12" stroke-width="1.0"/>
-    <ellipse cx="428" cy="297" rx="10" ry="6" fill="none" stroke="#3f3121" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="428" cy="297" rx="19" ry="12" fill="none" stroke="#3f3121" stroke-opacity="0.14" stroke-width="1.6"/>
-    <ellipse cx="428" cy="297" rx="28" ry="17" fill="none" stroke="#3f3121" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 -9 Q 78 -14 175 -13 Q 268 -3 361 -10 Q 419 5 477 -7 Q 565 -2 652 -6 Q 719 -6 786 -6 Q 849 -18 912 -7 Q 996 -19 1081 -13" fill="none" stroke="#382a1c" stroke-opacity="0.19" stroke-width="1.6"/>
+    <path d="M -20 80 Q 59 84 137 76 Q 211 70 285 78 Q 385 88 484 80 Q 547 77 610 77 Q 729 83 848 78 Q 951 80 1053 75" fill="none" stroke="#382a1c" stroke-opacity="0.15" stroke-width="2.2"/>
+    <path d="M -20 127 Q 42 137 104 127 Q 154 124 204 122 Q 318 128 431 131 Q 548 120 665 128 Q 727 121 790 125 Q 901 136 1012 128" fill="none" stroke="#382a1c" stroke-opacity="0.15" stroke-width="2.0"/>
+    <path d="M -20 211 Q 42 197 105 214 Q 157 193 209 212 Q 326 229 443 214 Q 515 203 587 210 Q 649 212 712 215 Q 797 215 882 216 Q 996 229 1111 215" fill="none" stroke="#382a1c" stroke-opacity="0.15" stroke-width="1.3"/>
+    <path d="M -20 274 Q 69 271 158 272 Q 224 278 291 271 Q 369 272 448 278 Q 562 278 677 278 Q 776 278 876 270 Q 962 276 1049 272" fill="none" stroke="#382a1c" stroke-opacity="0.14" stroke-width="1.6"/>
+    <path d="M -20 345 Q 68 338 156 343 Q 238 337 319 349 Q 399 343 479 340 Q 531 335 582 345 Q 675 340 768 349 Q 872 351 975 347" fill="none" stroke="#382a1c" stroke-opacity="0.14" stroke-width="0.9"/>
+    <path d="M -20 423 Q 71 431 162 424 Q 257 428 352 424 Q 405 419 459 420 Q 576 414 694 426 Q 805 428 916 423 Q 978 421 1041 425" fill="none" stroke="#382a1c" stroke-opacity="0.19" stroke-width="0.9"/>
+    <path d="M -20 492 Q 80 475 180 489 Q 244 498 309 487 Q 423 480 538 494 Q 652 472 767 489 Q 874 505 981 497" fill="none" stroke="#382a1c" stroke-opacity="0.20" stroke-width="2.0"/>
+    <path d="M -20 547 Q 33 533 86 544 Q 183 562 280 546 Q 370 561 460 548 Q 524 561 588 549 Q 658 554 727 546 Q 806 538 884 551 Q 992 546 1099 548" fill="none" stroke="#382a1c" stroke-opacity="0.16" stroke-width="1.4"/>
+    <path d="M -20 623 Q 76 616 173 625 Q 231 634 289 623 Q 352 619 415 628 Q 483 628 551 628 Q 628 624 706 621 Q 796 614 886 620 Q 994 633 1101 628" fill="none" stroke="#382a1c" stroke-opacity="0.15" stroke-width="1.5"/>
+    <path d="M -20 679 Q 63 661 146 676 Q 254 665 362 681 Q 469 667 575 680 Q 656 663 737 680 Q 789 698 842 681 Q 905 666 969 677" fill="none" stroke="#382a1c" stroke-opacity="0.15" stroke-width="2.1"/>
+    <path d="M -20 752 Q 95 746 209 749 Q 304 748 399 749 Q 470 734 540 749 Q 604 759 667 752 Q 778 734 889 750 Q 976 755 1063 749" fill="none" stroke="#382a1c" stroke-opacity="0.20" stroke-width="0.9"/>
+    <path d="M -20 829 Q 67 832 155 826 Q 270 826 385 826 Q 443 823 500 828 Q 589 837 679 832 Q 737 823 795 831 Q 885 819 974 831" fill="none" stroke="#382a1c" stroke-opacity="0.19" stroke-width="2.1"/>
+    <path d="M -20 897 Q 73 896 166 900 Q 264 899 362 896 Q 481 896 600 901 Q 661 898 722 896 Q 782 900 842 894 Q 960 907 1077 901" fill="none" stroke="#382a1c" stroke-opacity="0.12" stroke-width="0.8"/>
+    <path d="M -20 970 Q 62 973 144 970 Q 210 968 276 973 Q 351 976 426 969 Q 505 973 584 969 Q 661 968 738 968 Q 816 973 894 967 Q 959 965 1025 967" fill="none" stroke="#382a1c" stroke-opacity="0.18" stroke-width="1.7"/>
+    <path d="M -20 1034 Q 68 1045 157 1033 Q 252 1022 347 1031 Q 405 1040 462 1032 Q 570 1045 679 1035 Q 732 1023 786 1035 Q 847 1029 908 1034 Q 970 1032 1033 1036" fill="none" stroke="#382a1c" stroke-opacity="0.13" stroke-width="1.7"/>
   </g>
-  <g opacity="0.55">
-    <rect x="310" y="549" width="280" height="1" fill="#e7c49f" opacity="0.5"/>
-    <text x="450" y="584" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="31" fill="#e7c49f">Terrazzo Platter</text>
+  <rect width="900" height="1100" fill="url(#v)"/>
+  <g opacity="0.85" transform="translate(216 261) scale(4.68)">
+    
+      <ellipse cx="50" cy="52" rx="34" ry="13" fill="none" stroke="#e7c49f" stroke-width="1.6"/>
+      <ellipse cx="50" cy="50" rx="26" ry="9" fill="none" stroke="#e7c49f" stroke-width="1"/>
+      <circle cx="42" cy="49" r="1.4" fill="#e7c49f"/><circle cx="56" cy="53" r="1.8" fill="#e7c49f"/>
+      <circle cx="63" cy="48" r="1.1" fill="#e7c49f"/><circle cx="49" cy="55" r="1.2" fill="#e7c49f"/>
+    
+  </g>
+  <g opacity="0.75">
+    <rect x="390" y="795" width="120" height="1" fill="#e7c49f" opacity="0.6"/>
+    <text x="450" y="836" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="27" fill="#e7c49f" letter-spacing="1">Terrazzo Platter</text>
   </g>
 </svg>
